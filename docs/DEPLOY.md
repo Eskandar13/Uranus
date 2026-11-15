@@ -3,7 +3,8 @@
 ## Step 1: the demo link (free, about 15 minutes)
 This puts the three demo menus online so you can send a link or print a QR for customers. It needs no database: the demo content is built into the app.
 
-1. **GitHub:** create a free account and a new **private** repository. Upload the `menu-platform` folder (it's already a git repository; from inside it run `git add -A`, `git commit -m "Menu platform"`, then follow GitHub's "push an existing repository" instructions).
+1. **GitHub:** create a free account and a new, **empty**, **private** repository (don't tick "Add a README", .gitignore or license). The code is already committed in `menu-platform` (branch `main`). Connect and upload it from inside `menu-platform`:
+   `git remote add origin https://github.com/<you>/<repo>.git`, then `git push -u origin main` (a GitHub sign-in window opens the first time).
 2. **Netlify:** create a free account → *Add new project* (older screens say *Add new site*) → *Import an existing project* → pick the GitHub repository. Netlify reads `netlify.toml`, so leave the build settings as they are.
 3. **Before you click Deploy**, on that same screen click *Add environment variables* and add:
    | Name | Value |
