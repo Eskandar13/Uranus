@@ -30,7 +30,13 @@ _Last updated: 2026-11-15. All planned building and testing is done. Waiting for
   - The user will send more screenshots later.
 - 2026-11-15, round 2: **fixed** the menu footer phone row alignment in Arabic. `dir="ltr"` on the whole `<a>` pushed the phone line to the opposite side; now `dir="ltr"` is only on the number/email `<span>` in `components/menu/menu-extras.tsx` (MenuFooter). Verified in Arabic and English at 1280px and 375px. (The opening hours were fine; the user confirmed.)
 
-## Pre-launch full check (2026-11-15, in progress)
+## Pre-launch full check: DONE 2026-11-15
+- The crawl of 405 pages (all item pages, dashboards for every owner, admin, subdomain mode) found no errors; all 149 photos load; access control works; the server log is clean. The i18n/RTL audit is clean.
+- Fixed: bilingual 404 for unknown URLs (`app/[lang]/[...missing]`), a "menu coming soon" state for empty menus, the manifest fallback icon, item page links on subdomains, hours cell bdi, NEXT_PUBLIC_APP_URL falls back to Netlify's URL (next.config.ts), DEPLOY.md env vars before the first build, seed-scripts doc (0002), `/favicon.ico` → `/icon.svg` redirect.
+- Git: 2 commits on branch `main` (930e318, 8d0fa92), with repo identity set locally. No remote yet: the user must create an empty private GitHub repo; then `git remote add origin <url>` + `git push -u origin main`.
+- Netlify plugin upgraded to 5.16.7. `npx netlify build --offline` FAILS LOCALLY on Windows at "Edge Functions bundling" (Cannot find module './chunks/[turbopack]_runtime.js'). The file exists, and the require path is mangled (`file:///es/es/.../D:/es/es/...`), so this is a Windows path bug in the local tool; expected to work on Netlify's Linux builders. If the real Netlify build fails the same way, fallbacks: (a) `next build --webpack` (needs `@tailwindcss/postcss` + postcss.config), or (b) replace proxy.ts with next.config rewrites/redirects using `has: host`.
+
+Old notes:
 The user asked for a full error check of everything (demos, owner dashboard, admin), then the Netlify deploy. Workflow `menu-platform-full-check` (run wf_21ed0ac5-ad9) is running: runtime crawl of every page as owner and admin, an i18n/RTL audit, a code review, then fixers per area. If it was interrupted, resume it with `Workflow({scriptPath: <session workflows dir>/menu-platform-full-check-wf_21ed0ac5-ad9.js, resumeFromRunId: "wf_21ed0ac5-ad9"})`, or re-run a smaller check. After it: rebuild, smoke test, then deploy (Next steps #2). Note: `gh` is NOT installed; the Netlify CLI works via `npx netlify`.
 
 ## Next steps (in order)
