@@ -30,6 +30,11 @@ _Last updated: 2026-11-15. All planned building and testing is done. Waiting for
   - The user will send more screenshots later.
 - 2026-11-15, round 2: **fixed** the menu footer phone row alignment in Arabic. `dir="ltr"` on the whole `<a>` pushed the phone line to the opposite side; now `dir="ltr"` is only on the number/email `<span>` in `components/menu/menu-extras.tsx` (MenuFooter). Verified in Arabic and English at 1280px and 375px. (The opening hours were fine; the user confirmed.)
 
+## LIVE: https://uranusmenuly.netlify.app (2026-11-15)
+- Netlify project **uranusmenuly** (renamed from mellifluous-druid-002f2e), deploys from GitHub Eskandar13/Uranus, branch main, base directory menu-platform. Visitor access set to Public. Env: SESSION_SECRET (secret; it was pasted in chat, so rotate it before real customers). NEXT_PUBLIC_PLATFORM_NAME is not set (defaults to Menuly).
+- Live check (scratchpad/check/live-check.mjs): 283 pages OK, 120 images OK, owner/admin demo logins OK, signed-out redirect OK. First-visit dish pages take ~4s (cold function + cache fill); repeat visits are fast.
+- Every push to main auto-deploys.
+
 ## Pre-launch full check: DONE 2026-11-15
 - The crawl of 405 pages (all item pages, dashboards for every owner, admin, subdomain mode) found no errors; all 149 photos load; access control works; the server log is clean. The i18n/RTL audit is clean.
 - Fixed: bilingual 404 for unknown URLs (`app/[lang]/[...missing]`), a "menu coming soon" state for empty menus, the manifest fallback icon, item page links on subdomains, hours cell bdi, NEXT_PUBLIC_APP_URL falls back to Netlify's URL (next.config.ts), DEPLOY.md env vars before the first build, seed-scripts doc (0002), `/favicon.ico` → `/icon.svg` redirect.
