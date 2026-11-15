@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="Haara Burger logo">
+  <circle cx="60" cy="60" r="58" fill="#FFC400"/>
+  <path d="M26 56c0-18 15-29 34-29s34 11 34 29z" fill="#F0401A"/>
+  <g fill="#FFF4D6"><ellipse cx="45" cy="42" rx="3.2" ry="1.8" transform="rotate(-20 45 42)"/><ellipse cx="60" cy="37" rx="3.2" ry="1.8"/><ellipse cx="75" cy="42" rx="3.2" ry="1.8" transform="rotate(20 75 42)"/></g>
+  <path d="M24 62q6 7 12 0t12 0 12 0 12 0 12 0 12 0v4H24z" fill="#2E7D32"/>
+  <rect x="26" y="68" width="68" height="10" rx="5" fill="#3B1D12"/>
+  <path d="M26 82h68c0 8-8 13-17 13H43c-9 0-17-5-17-13z" fill="#F0401A"/>
+</svg>

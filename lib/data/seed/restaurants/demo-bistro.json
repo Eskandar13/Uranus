@@ -1,0 +1,1739 @@
+{
+  "restaurant": {
+    "id": "20000000-0000-4000-8000-000000000001",
+    "slug": "demo-bistro",
+    "customDomain": null,
+    "name": {
+      "ar": "مطعم جَمر",
+      "en": "Jamr Fire & Grill"
+    },
+    "tagline": {
+      "ar": "مطبخ متوسطي على نار الحطب",
+      "en": "Mediterranean cooking over live fire"
+    },
+    "description": {
+      "ar": "جَمر مطعم متوسطي أنيق يطهو على حطب الزيتون: بيتزا بعجين مخمّر ٤٨ ساعة، ومعكرونة طازجة، ومشويات تُنضَج على الجمر. أجواء دافئة لعشاء لا يُنسى.",
+      "en": "Jamr is an elegant Mediterranean restaurant cooking over olive wood: pizza from 48-hour dough, fresh pasta and grills finished over embers. A warm room for an unforgettable dinner."
+    },
+    "logoUrl": "/demo/demo-bistro-logo.svg",
+    "coverUrl": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1600&q=80",
+    "coverBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABQT/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAAVgSsf/8QAHBABAAICAwEAAAAAAAAAAAAAAQIDABEEEjGh/9oACAEBAAE/AK+JWp2sffmU1cQnqK6YmULpyU5tY9nY7M//xAAWEQEBAQAAAAAAAAAAAAAAAAABACH/2gAIAQIBAT8ADb//xAAWEQADAAAAAAAAAAAAAAAAAAAAATH/2gAIAQMBAT8AcP/Z",
+    "theme": {
+      "template": "noir",
+      "primary": "#8A2538",
+      "accent": "#C9A24B",
+      "mode": "dark",
+      "font": "el-messiri",
+      "radius": "soft"
+    },
+    "currency": "USD",
+    "secondaryCurrency": "SYP",
+    "exchangeRate": 122,
+    "contact": {
+      "whatsapp": "963900000201",
+      "phone": "963900000201",
+      "email": "hello@demo-bistro.test",
+      "address": {
+        "ar": "شارع بغداد، المزة، دمشق",
+        "en": "Baghdad Street, Mazzeh, Damascus"
+      },
+      "mapsUrl": "https://maps.google.com/?q=Damascus",
+      "instagram": "https://www.instagram.com/",
+      "facebook": null,
+      "tiktok": null,
+      "website": null
+    },
+    "openingHours": {
+      "sat": {
+        "open": "12:00",
+        "close": "01:00"
+      },
+      "sun": {
+        "open": "12:00",
+        "close": "00:00"
+      },
+      "mon": {
+        "open": "12:00",
+        "close": "00:00"
+      },
+      "tue": {
+        "open": "12:00",
+        "close": "00:00"
+      },
+      "wed": {
+        "open": "12:00",
+        "close": "00:00"
+      },
+      "thu": {
+        "open": "12:00",
+        "close": "00:00"
+      },
+      "fri": {
+        "open": "12:00",
+        "close": "01:00"
+      }
+    },
+    "timezone": "Asia/Damascus",
+    "isActive": true,
+    "plan": "pro",
+    "createdAt": "2026-11-10T00:00:00.000Z",
+    "updatedAt": "2026-11-10T00:00:00.000Z"
+  },
+  "categories": [
+    {
+      "id": "20000000-0000-4000-8000-000000001100",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "name": {
+        "ar": "المقبلات",
+        "en": "Starters"
+      },
+      "description": {
+        "ar": "بداية خفيفة تفتح الشهية",
+        "en": "Light plates to open the appetite"
+      },
+      "imageUrl": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAQMF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAv/aAAwDAQACEAMQAAAATPoH/8QAHBABAQACAgMAAAAAAAAAAAAAAQIAAxEhEkGh/9oACAEBAAE/ALskoHyytvZPKPsx23CsvCJ9wp2Stdq5/8QAFxEAAwEAAAAAAAAAAAAAAAAAABIhMf/aAAgBAgEBPwBcp//EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQMBAT8Af//Z",
+      "icon": "soup",
+      "sortOrder": 0,
+      "isVisible": true
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000001101",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "name": {
+        "ar": "السلطات",
+        "en": "Salads"
+      },
+      "description": {
+        "ar": "مكوّنات طازجة من سوق الصباح",
+        "en": "Market-fresh ingredients picked each morning"
+      },
+      "imageUrl": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=900&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAgT/xAAUAQEAAAAAAAAAAAAAAAAAAAAD/9oADAMBAAIQAxAAAABua0E//8QAHhAAAgEEAwEAAAAAAAAAAAAAAQIDABESIQQyQbH/2gAIAQEAAT8AYoskWNsQnp3USQuLBbgGuNGkkzBxcZv8rrGMdar/xAAXEQADAQAAAAAAAAAAAAAAAAAAETFx/9oACAECAQE/AFMP/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAIREqH/2gAIAQMBAT8Aqs4f/9k=",
+      "icon": "salad",
+      "sortOrder": 1,
+      "isVisible": true
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000001102",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "name": {
+        "ar": "بيتزا الحطب",
+        "en": "Wood-Fired Pizza"
+      },
+      "description": {
+        "ar": "عجين مخمّر ٤٨ ساعة ويُخبز على حطب الزيتون",
+        "en": "48-hour dough baked over olive wood"
+      },
+      "imageUrl": "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?auto=format&fit=crop&w=900&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAwQF/8QAFQEBAQAAAAAAAAAAAAAAAAAABAX/2gAMAwEAAhADEAAAAGoDSFQ//8QAHhAAAQQCAwEAAAAAAAAAAAAAAQACAxESIgQyQXH/2gAIAQEAAT8A40dDNGKPd1bGrUHVv0KRozAr1f/EABYRAAMAAAAAAAAAAAAAAAAAAAACMv/aAAgBAgEBPwCkP//EABgRAAIDAAAAAAAAAAAAAAAAAAEDAAIx/9oACAEDAQE/AGE0Zs//2Q==",
+      "icon": "pizza",
+      "sortOrder": 2,
+      "isVisible": true
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000001103",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "name": {
+        "ar": "المعكرونة",
+        "en": "Pasta"
+      },
+      "description": {
+        "ar": "معكرونة طازجة تُحضَّر في المطبخ",
+        "en": "Pasta made fresh in our kitchen"
+      },
+      "imageUrl": "https://images.unsplash.com/photo-1498579150354-977475b7ea0b?auto=format&fit=crop&w=900&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAwIF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAwT/2gAMAwEAAhADEAAAAIIt+df/xAAgEAACAgEDBQAAAAAAAAAAAAABAgMSAAQRFCEiQUKB/9oACAEBAAE/AF0DAqVeM2PwbY8G9+Pe3s3jNBNKzvGXNQMQBHAXp25//8QAGBEBAAMBAAAAAAAAAAAAAAAAAQACERL/2gAIAQIBAT8AeqLuM//EABcRAAMBAAAAAAAAAAAAAAAAAAABAjL/2gAIAQMBAT8AlRSyf//Z",
+      "icon": "utensils",
+      "sortOrder": 3,
+      "isVisible": true
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000001104",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "name": {
+        "ar": "المشويات",
+        "en": "Grills"
+      },
+      "description": {
+        "ar": "على جمر الحطب مباشرة",
+        "en": "Cooked straight over live embers"
+      },
+      "imageUrl": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAwT/xAAUAQEAAAAAAAAAAAAAAAAAAAAC/9oADAMBAAIQAxAAAABZXnK//8QAHhABAAEFAAMBAAAAAAAAAAAAAQMAAgQRIhIxUXH/2gAIAQEAAT8AJsadeuh275rLcdij22A3gfT9rGWbFy75Om1dViPlHNYg2svrVf/EABURAQEAAAAAAAAAAAAAAAAAAAAB/9oACAECAQE/AK//xAAWEQADAAAAAAAAAAAAAAAAAAAAASH/2gAIAQMBAT8AVP/Z",
+      "icon": "flame",
+      "sortOrder": 4,
+      "isVisible": true
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000001105",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "name": {
+        "ar": "الحلويات",
+        "en": "Desserts"
+      },
+      "description": {
+        "ar": "نهاية حلوة لسهرة جميلة",
+        "en": "A sweet finish to a lovely evening"
+      },
+      "imageUrl": "https://images.unsplash.com/photo-1488900128323-21503983a07e?auto=format&fit=crop&w=900&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAYABADASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAQBAgMF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgP/2gAMAwEAAhADEAAAAODDLBpXYCv/xAAgEAACAgEDBQAAAAAAAAAAAAABAgADERIxQQQjUWGx/9oACAEBAAE/ACqcZaBSeJQ1dZXVll3b1OopSsaw+c7AyqtK2NjWLgyyjtsaVDavJ+T/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPwBX/8QAFhEBAQEAAAAAAAAAAAAAAAAAEQEQ/9oACAEDAQE/ACGf/9k=",
+      "icon": "cake-slice",
+      "sortOrder": 5,
+      "isVisible": true
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000001106",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "name": {
+        "ar": "المشروبات",
+        "en": "Drinks"
+      },
+      "description": {
+        "ar": "كوكتيلات بلا كحول وعصائر ومشروبات",
+        "en": "Mocktails, juices and fine drinks"
+      },
+      "imageUrl": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=900&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAYABADASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEBQb/xAAWAQEBAQAAAAAAAAAAAAAAAAAEAwX/2gAMAwEAAhADEAAAAM+DqFlraoMlv//EACEQAQABAwMFAQAAAAAAAAAAAAECAAMRBBJBExQhMTJR/9oACAEBAAE/AHRakts5EIh+tSPlRBptEIJblhPRxU9H3EI9e9hI52lceAzU7e6UWeHa5K//xAAYEQEAAwEAAAAAAAAAAAAAAAABAAIDBP/aAAgBAgEBPwDPqLsLs//EABcRAAMBAAAAAAAAAAAAAAAAAAIEERD/2gAIAQMBAT8ANeDbn//Z",
+      "icon": "martini",
+      "sortOrder": 6,
+      "isVisible": true
+    }
+  ],
+  "items": [
+    {
+      "id": "20000000-0000-4000-8000-000000003000",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001100",
+      "slug": "bruschetta",
+      "name": {
+        "ar": "بروشيتا الطماطم",
+        "en": "Tomato Bruschetta"
+      },
+      "description": {
+        "ar": "خبز محمّص بالطماطم الطازجة والريحان وزيت الزيتون البكر.",
+        "en": "Toasted bread with ripe tomato, basil and extra-virgin olive oil."
+      },
+      "price": 6.5,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1572695157366-5e585ab2b69f?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDBf/EABQBAQAAAAAAAAAAAAAAAAAAAAP/2gAMAwEAAhADEAAAALuZpp//xAAeEAACAgEFAQAAAAAAAAAAAAABAgADBBEhMTIzcf/aAAgBAQABPwB70UlU305LSvIVuyFZkohQkrB71/J//8QAFREBAQAAAAAAAAAAAAAAAAAAAQD/2gAIAQIBAT8AVG//xAAWEQEBAQAAAAAAAAAAAAAAAAABADH/2gAIAQMBAT8AATL/2Q==",
+      "options": [],
+      "tags": [
+        "vegan"
+      ],
+      "calories": 210,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 0,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000003001",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001100",
+      "slug": "burrata-crostini",
+      "name": {
+        "ar": "كروستيني البوراتا",
+        "en": "Burrata Crostini"
+      },
+      "description": {
+        "ar": "جبنة بوراتا كريمية مع طماطم كرزية وعسل الزهور على خبز مشوي.",
+        "en": "Creamy burrata with cherry tomatoes and blossom honey on grilled bread."
+      },
+      "price": 9.5,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1506280754576-f6fa8a873550?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAYABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAUD/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQME/9oADAMBAAIQAxAAAACxMM92An//xAAeEAADAAICAwEAAAAAAAAAAAABAgMAEhEhBCJCYv/aAAgBAQABPwClnMi8lDfnJPR6O1D0TrxlKWX0VQQh+W7xdr6tyyttwfnbGMi8jVJgOSQBj+S7k6kPwelTP//EABURAQEAAAAAAAAAAAAAAAAAAAEA/9oACAECAQE/AFWQL//EABcRAQEBAQAAAAAAAAAAAAAAAAEAAiH/2gAIAQMBAT8ADhGm/9k=",
+      "options": [],
+      "tags": [
+        "vegetarian",
+        "chef_pick"
+      ],
+      "calories": 340,
+      "isAvailable": true,
+      "isFeatured": true,
+      "sortOrder": 1,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000003002",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001100",
+      "slug": "pumpkin-soup",
+      "name": {
+        "ar": "شوربة القرع",
+        "en": "Roasted Pumpkin Soup"
+      },
+      "description": {
+        "ar": "قرع محمّص مع كريمة جوز الهند وزيت الأعشاب.",
+        "en": "Roasted pumpkin velvet with coconut cream and herb oil."
+      },
+      "price": 6,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1604152135912-04a022e23696?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAYABADASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMBBv/EABYBAQEBAAAAAAAAAAAAAAAAAAIBA//aAAwDAQACEAMQAAAA6GcoC6NT/8QAIBAAAgICAAcAAAAAAAAAAAAAAQIDEQAhEiIxMkLB0f/aAAgBAQABPwAhQLYgDGAIuwRhCtzO3VRv5iTMkErsDo46TQsBHXAfE+saKaa1k7SKAGqz/8QAGhEAAgIDAAAAAAAAAAAAAAAAABIBERMjMf/aAAgBAgEBPwDLsWhY6f/EABcRAQEBAQAAAAAAAAAAAAAAABEAEiL/2gAIAQMBAT8Axys3/9k=",
+      "options": [],
+      "tags": [
+        "vegan",
+        "gluten_free"
+      ],
+      "calories": 180,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 2,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000003003",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001100",
+      "slug": "pea-veloute",
+      "name": {
+        "ar": "فيلوتيه البازلاء",
+        "en": "Pea Velouté"
+      },
+      "description": {
+        "ar": "شوربة البازلاء الخضراء بالنعناع مع عصا خبز مقرمشة.",
+        "en": "Silky green pea soup with mint and a crisp breadstick."
+      },
+      "price": 6.5,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1626200419199-391ae4be7a41?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAC/9oADAMBAAIQAxAAAADXHyQ//8QAHhAAAgICAgMAAAAAAAAAAAAAAQIAEQMEEiETIkH/2gAIAQEAAT8Ay7BRyiqOh2Zrt5wXZzY+VU4I9BlBm4xxpwT1Wf/EABkRAQACAwAAAAAAAAAAAAAAAAEAEgIRUf/aAAgBAgEBPwAM7bUryf/EABURAQEAAAAAAAAAAAAAAAAAAAAx/9oACAEDAQE/AI//2Q==",
+      "options": [],
+      "tags": [
+        "vegetarian",
+        "new"
+      ],
+      "calories": 190,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 3,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000003004",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001100",
+      "slug": "grilled-halloumi",
+      "name": {
+        "ar": "حلّوم مشوي",
+        "en": "Grilled Halloumi"
+      },
+      "description": {
+        "ar": "شرائح حلّوم مشوية على الفحم مع سلطة صغيرة ودبس الرمان.",
+        "en": "Charcoal-grilled halloumi with a small salad and pomegranate molasses."
+      },
+      "price": 8.5,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAgMEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAID/9oADAMBAAIQAxAAAAA5ctgp/8QAIRABAAECBQUAAAAAAAAAAAAAAgEAEQMSEyEyBCJCcYH/2gAIAQEAAT8AwGIATR42g/a0NVvFPPN62pgrLePGummRHbNt6//EABcRAAMBAAAAAAAAAAAAAAAAAAABEVH/2gAIAQIBAT8Ad0//xAAVEQEBAAAAAAAAAAAAAAAAAAAAIf/aAAgBAwEBPwCP/9k=",
+      "options": [],
+      "tags": [
+        "vegetarian"
+      ],
+      "calories": 360,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 4,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000003005",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001100",
+      "slug": "lamb-kofta",
+      "name": {
+        "ar": "كفتة الغنم",
+        "en": "Lamb Kofta Bites"
+      },
+      "description": {
+        "ar": "كرات كفتة غنم مشوية على فراش من الجرجير مع صلصة الرمان.",
+        "en": "Grilled lamb kofta on a bed of rocket with pomegranate glaze."
+      },
+      "price": 10.5,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1529042410759-befb1204b468?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAYABADASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUCAwT/xAAWAQEBAQAAAAAAAAAAAAAAAAACAAP/2gAMAwEAAhADEAAAAJp9zHJ1AK//xAAgEAACAgEEAwEAAAAAAAAAAAABAgMEAAURE0EhQoKi/9oACAEBAAE/AHraVLLwxwsD1ImW6sleQuXR4w+wYZ5V0BBDk7gHrbs5SKWUmqyqHR9/nItSpzqq2DxH8nH1GhTDmCTmc+uf/8QAGREAAgMBAAAAAAAAAAAAAAAAAQIAESEx/9oACAECAQE/AFezsCjtbP/EABgRAQADAQAAAAAAAAAAAAAAAAEAAhEx/9oACAEDAQE/AEw7LAOE/9k=",
+      "options": [],
+      "tags": [
+        "popular"
+      ],
+      "calories": 420,
+      "isAvailable": true,
+      "isFeatured": true,
+      "sortOrder": 5,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000003006",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001100",
+      "slug": "shish-tawook",
+      "name": {
+        "ar": "شيش طاووق",
+        "en": "Shish Tawook Skewers"
+      },
+      "description": {
+        "ar": "مكعبات دجاج متبّلة بالثوم والليمون ومشوية على الجمر.",
+        "en": "Garlic-lemon marinated chicken cubes grilled over embers."
+      },
+      "price": 9,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAKABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAgMEBf/EABQBAQAAAAAAAAAAAAAAAAAAAAL/2gAMAwEAAhADEAAAAHFnUF//xAAdEAABBAMBAQAAAAAAAAAAAAACAAEEEQMSEyIy/9oACAEBAAE/ACmNkONlsn5nspMsSPqFb1VOjZvTUsQDXyy//8QAFhEAAwAAAAAAAAAAAAAAAAAAAAES/9oACAECAQE/AKZ//8QAFhEAAwAAAAAAAAAAAAAAAAAAAAER/9oACAEDAQE/AIj/2Q==",
+      "options": [],
+      "tags": [
+        "popular"
+      ],
+      "calories": 380,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 6,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000003007",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001101",
+      "slug": "greek-salad",
+      "name": {
+        "ar": "سلطة يونانية",
+        "en": "Greek Salad"
+      },
+      "description": {
+        "ar": "خيار وطماطم وزيتون وبصل أحمر وجبنة فيتا بزيت الزيتون.",
+        "en": "Cucumber, tomato, olives, red onion and feta with olive oil."
+      },
+      "price": 8.5,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAYABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EABQBAQAAAAAAAAAAAAAAAAAAAAP/2gAMAwEAAhADEAAAAMy2Z4pmvBT/AP/EAB8QAAICAgIDAQAAAAAAAAAAAAECAxEABBMiElJhwv/aAAgBAQABPwDQkhRn5a+E5I0Wx3m9enh+s1IkoOwySJYDyJSEVYyDaeHH22mKiqAz/8QAGhEAAgIDAAAAAAAAAAAAAAAAAREAAhITIf/aAAgBAgEBPwBU2m3XBUZNT//EABkRAAIDAQAAAAAAAAAAAAAAAAARAQIhEv/aAAgBAwEBPwB24WImcP/Z",
+      "options": [],
+      "tags": [
+        "vegetarian",
+        "gluten_free"
+      ],
+      "calories": 290,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 0,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000003008",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001101",
+      "slug": "beet-walnut",
+      "name": {
+        "ar": "سلطة الشمندر والجوز",
+        "en": "Beetroot & Walnut"
+      },
+      "description": {
+        "ar": "شمندر محمّص وجوز وجبنة وأوراق خضراء بصلصة البلسميك.",
+        "en": "Roasted beets, walnuts and cheese over greens with balsamic dressing."
+      },
+      "price": 9,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1561043433-aaf687c4cf04?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABAX/xAAVAQEBAAAAAAAAAAAAAAAAAAABA//aAAwDAQACEAMQAAAAqAdNm//EABwQAQABBQEBAAAAAAAAAAAAAAECAAMREiExQf/aAAgBAQABPwBdbcpHUGr32IcAeZzJqNXVJSiLr5iv/8QAFhEBAQEAAAAAAAAAAAAAAAAAEQAD/9oACAECAQE/ANEv/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAwEBPwB//9k=",
+      "options": [],
+      "tags": [
+        "vegetarian",
+        "gluten_free"
+      ],
+      "calories": 320,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 1,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000003009",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001101",
+      "slug": "arugula-goat",
+      "name": {
+        "ar": "سلطة الجرجير والماعز",
+        "en": "Arugula & Goat Cheese"
+      },
+      "description": {
+        "ar": "جرجير بري وجبنة ماعز وطماطم مجففة وزبدة التفاح.",
+        "en": "Wild rocket, goat cheese and sun-dried tomato with apple vinaigrette."
+      },
+      "price": 9.5,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1529059997568-3d847b1154f0?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAQIDBP/EABQBAQAAAAAAAAAAAAAAAAAAAAL/2gAMAwEAAhADEAAAAKNiAX//xAAcEAABBQEBAQAAAAAAAAAAAAACAAEDBBEhMUH/2gAIAQEAAT8AghrAEZPE7GQ/FZKNx4Wa6pGba28xW55R8Jf/xAAXEQADAQAAAAAAAAAAAAAAAAAAAhFR/9oACAECAQE/AI2n/8QAFhEAAwAAAAAAAAAAAAAAAAAAACFR/9oACAEDAQE/AFD/2Q==",
+      "options": [],
+      "tags": [
+        "vegetarian"
+      ],
+      "calories": 310,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 2,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-00000000300a",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001101",
+      "slug": "garden-crunch",
+      "name": {
+        "ar": "سلطة الحديقة",
+        "en": "Garden Crunch"
+      },
+      "description": {
+        "ar": "خضار ملوّنة نيئة مع بذور وصلصة الليمون والأعشاب.",
+        "en": "A rainbow of raw vegetables with seeds and lemon-herb dressing."
+      },
+      "price": 7.5,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAYABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDBP/EABUBAQEAAAAAAAAAAAAAAAAAAAMC/9oADAMBAAIQAxAAAACOxZArqFn/AP/EACAQAAICAQQDAQAAAAAAAAAAAAECAAMSERMhIjEyUUH/2gAIAQEAAT8Aal67QWsXHkGMqMqLupmg+6aj8MvCtcvXuZhWQWfl8Tl8M3mJdSMpafQVgEHzP//EABgRAQADAQAAAAAAAAAAAAAAAAEAERIx/9oACAECAQE/AE0uiidqf//EABgRAAMBAQAAAAAAAAAAAAAAAAABERIC/9oACAEDAQE/ALmZdYunEf/Z",
+      "options": [],
+      "tags": [
+        "vegan",
+        "gluten_free"
+      ],
+      "calories": 190,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 3,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-00000000300b",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001101",
+      "slug": "chickpea-avocado",
+      "name": {
+        "ar": "سلطة الحمص والأفوكادو",
+        "en": "Chickpea & Avocado"
+      },
+      "description": {
+        "ar": "حمص مقرمش وأفوكادو وبطاطا حلوة وخضار مشوية.",
+        "en": "Crisp chickpeas, avocado, sweet potato and roasted vegetables."
+      },
+      "price": 8.5,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAQIDBf/EABQBAQAAAAAAAAAAAAAAAAAAAAL/2gAMAwEAAhADEAAAAC+XUL//xAAbEAEAAgMBAQAAAAAAAAAAAAACAREAAzEhwf/aAAgBAQABPwB7VIkiLXIrITHkq4+5sSG8VPZrIaTVrmf/xAAWEQEBAQAAAAAAAAAAAAAAAAARACL/2gAIAQIBAT8ANN//xAAXEQADAQAAAAAAAAAAAAAAAAAAARFR/9oACAEDAQE/AKsP/9k=",
+      "options": [],
+      "tags": [
+        "vegan",
+        "gluten_free",
+        "new"
+      ],
+      "calories": 430,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 4,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-00000000300c",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001101",
+      "slug": "salmon-quinoa",
+      "name": {
+        "ar": "سلطة السلمون والكينوا",
+        "en": "Salmon Quinoa Bowl"
+      },
+      "description": {
+        "ar": "سلمون مشوي مع كينوا وذرة وبيض مسلوق وصلصة السمسم.",
+        "en": "Grilled salmon with quinoa, sweetcorn, egg and sesame dressing."
+      },
+      "price": 13.5,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAQABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EABQBAQAAAAAAAAAAAAAAAAAAAAL/2gAMAwEAAhADEAAAANwgYF//xAAeEAABBAIDAQAAAAAAAAAAAAABAAIDEQQSISJhQf/aAAgBAQABPwCabTqCNvVjzGThwHjh9WfDK7vEadSwg+g54IoVRX//xAAYEQACAwAAAAAAAAAAAAAAAAAAARIiUf/aAAgBAgEBPwC8lh//xAAYEQACAwAAAAAAAAAAAAAAAAAAAQISYf/aAAgBAwEBPwBqFdP/2Q==",
+      "options": [],
+      "tags": [
+        "popular"
+      ],
+      "calories": 560,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 5,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-00000000300d",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001101",
+      "slug": "avocado-bowl",
+      "name": {
+        "ar": "وعاء الأفوكادو",
+        "en": "Avocado Power Bowl"
+      },
+      "description": {
+        "ar": "أفوكادو وإدامامي وبذور السمسم والفلفل الحار بصلصة الليمون.",
+        "en": "Avocado, edamame, sesame and chilli with a zesty lime dressing."
+      },
+      "price": 10,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1547496502-affa22d38842?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAOABADASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABQP/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAAAGTDrD//EABsQAAMAAwEBAAAAAAAAAAAAAAECAwAEESMx/9oACAEBAAE/AIRWhCMeDG0NUL50CELiXafGX6Mbeowz/8QAFxEAAwEAAAAAAAAAAAAAAAAAAQISAP/aAAgBAgEBPwBg9CTv/8QAFhEAAwAAAAAAAAAAAAAAAAAAAAFB/9oACAEDAQE/AIz/2Q==",
+      "options": [],
+      "tags": [
+        "vegan",
+        "spicy"
+      ],
+      "calories": 470,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 6,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-00000000300e",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001102",
+      "slug": "margherita",
+      "name": {
+        "ar": "مارغريتا",
+        "en": "Margherita"
+      },
+      "description": {
+        "ar": "صلصة طماطم سان مارزانو وموزاريلا طازجة وريحان.",
+        "en": "San Marzano tomato, fresh mozzarella and basil."
+      },
+      "price": 11,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAIF/8QAFAEBAAAAAAAAAAAAAAAAAAAAA//aAAwDAQACEAMQAAAATGWcV//EABwQAAICAgMAAAAAAAAAAAAAAAECABEDIhNhcf/aAAgBAQABPwA7njQlRHYqGU7LVbd+TM7rmamIoRnds6KWNVc//8QAFxEBAAMAAAAAAAAAAAAAAAAAAQASMf/aAAgBAgEBPwBG2z//xAAXEQEAAwAAAAAAAAAAAAAAAAABABIh/9oACAEDAQE/ABKmT//Z",
+      "options": [
+        {
+          "id": "opt-15-1",
+          "name": {
+            "ar": "وسط",
+            "en": "Medium"
+          },
+          "price": 11
+        },
+        {
+          "id": "opt-15-2",
+          "name": {
+            "ar": "كبير",
+            "en": "Large"
+          },
+          "price": 14
+        }
+      ],
+      "tags": [
+        "popular",
+        "vegetarian"
+      ],
+      "calories": 780,
+      "isAvailable": true,
+      "isFeatured": true,
+      "sortOrder": 0,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-00000000300f",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001102",
+      "slug": "quattro-formaggi",
+      "name": {
+        "ar": "كواترو فورماجي",
+        "en": "Quattro Formaggi"
+      },
+      "description": {
+        "ar": "أربعة أنواع من الجبن الذائب على عجين مقرمش من الأطراف.",
+        "en": "Four melted cheeses on a blistered, airy crust."
+      },
+      "price": 13,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1541745537411-b8046dc6d66c?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAYABADASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUCBAb/xAAWAQEBAQAAAAAAAAAAAAAAAAAEAgP/2gAMAwEAAhADEAAAAMvB/UztoxASv//EACAQAAEEAgEFAAAAAAAAAAAAAAIAAQMRBAUSEzFBYpH/2gAIAQEAAT8AaKR+wF8TtSA9qN9QTZlNrMwjM+FqEgsymspfZDkRiDFY2Pi1/8QAGREAAgMBAAAAAAAAAAAAAAAAAAECERIi/9oACAECAQE/AN0+qRJvTP/EABgRAQADAQAAAAAAAAAAAAAAAAEAERJB/9oACAEDAQE/AMvBlFT/2Q==",
+      "options": [
+        {
+          "id": "opt-16-1",
+          "name": {
+            "ar": "وسط",
+            "en": "Medium"
+          },
+          "price": 13
+        },
+        {
+          "id": "opt-16-2",
+          "name": {
+            "ar": "كبير",
+            "en": "Large"
+          },
+          "price": 16
+        }
+      ],
+      "tags": [
+        "vegetarian",
+        "chef_pick"
+      ],
+      "calories": 920,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 1,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000003010",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001102",
+      "slug": "diavola",
+      "name": {
+        "ar": "ديافولا",
+        "en": "Diavola"
+      },
+      "description": {
+        "ar": "بيبروني حار وفلفل حلو وجبنة موزاريلا وزيت الفلفل الحار.",
+        "en": "Spicy pepperoni, mozzarella and chilli oil."
+      },
+      "price": 13.5,
+      "oldPrice": 15,
+      "imageUrl": "https://images.unsplash.com/photo-1544982503-9f984c14501a?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAYABADASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//aAAwDAQACEAMQAAAATGsTu6oI/wD/xAAjEAACAgIBAgcAAAAAAAAAAAACAwERAAQhEjETFCJCUZHC/9oACAEBAAE/AGAgELIWWyZ5HNhMJCT9VTXRhpXqdEguCviSnvnO4DFFVV3+CwC83qX7v1GCadNMeIVFP3Of/8QAGBEAAwEBAAAAAAAAAAAAAAAAABFBIWH/2gAIAQIBAT8Axqnaj//EABgRAQEAAwAAAAAAAAAAAAAAABEAISJB/9oACAEDAQE/ANhnBxv/2Q==",
+      "options": [
+        {
+          "id": "opt-17-1",
+          "name": {
+            "ar": "وسط",
+            "en": "Medium"
+          },
+          "price": 13.5
+        },
+        {
+          "id": "opt-17-2",
+          "name": {
+            "ar": "كبير",
+            "en": "Large"
+          },
+          "price": 16.5
+        }
+      ],
+      "tags": [
+        "spicy",
+        "popular"
+      ],
+      "calories": 960,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 2,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000003011",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001102",
+      "slug": "roasted-pepper",
+      "name": {
+        "ar": "بيتزا الفلفل المشوي",
+        "en": "Roasted Pepper & Basil"
+      },
+      "description": {
+        "ar": "فلفل أحمر مشوي وريحان طازج وجبنة موزاريلا.",
+        "en": "Fire-roasted red pepper, fresh basil and mozzarella."
+      },
+      "price": 12,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1595854341625-f33ee10dbf94?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAwQG/8QAFAEBAAAAAAAAAAAAAAAAAAAAAv/aAAwDAQACEAMQAAAAGlM+V//EAB4QAAIBBQADAAAAAAAAAAAAAAECAwAEERIhIlFx/9oACAEBAAE/ALO0Rold1Vm6fKtobZtXICKAVHqoTrDz7V2zNKMknIya/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAR/9oACAECAQE/AAdv/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAR/9oACAEDAQE/AFMv/9k=",
+      "options": [],
+      "tags": [
+        "vegetarian"
+      ],
+      "calories": 740,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 3,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000003012",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001102",
+      "slug": "rosemary-tomato",
+      "name": {
+        "ar": "بيتزا الروزماري",
+        "en": "Rosemary & Tomato"
+      },
+      "description": {
+        "ar": "طماطم كرزية وروزماري طازج وقطرات من زيت الزيتون.",
+        "en": "Cherry tomato, fresh rosemary and a drizzle of olive oil."
+      },
+      "price": 12.5,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAMF/8QAFAEBAAAAAAAAAAAAAAAAAAAABP/aAAwDAQACEAMQAAAABY+oZP8A/8QAHBAAAgIDAQEAAAAAAAAAAAAAAQIAIQMREjOR/9oACAEBAAE/ADjXvhKq4iLwQNUo+zN6AzkDAG1dT//EABURAQEAAAAAAAAAAAAAAAAAAAAB/9oACAECAQE/AK//xAAVEQEBAAAAAAAAAAAAAAAAAAABAP/aAAgBAwEBPwAb/9k=",
+      "options": [],
+      "tags": [
+        "vegan"
+      ],
+      "calories": 700,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 4,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000003013",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001102",
+      "slug": "garden-veggie",
+      "name": {
+        "ar": "بيتزا الخضار",
+        "en": "Garden Veggie"
+      },
+      "description": {
+        "ar": "فطر وبصل وفلفل وزيتون على صلصة الطماطم والجبنة.",
+        "en": "Mushroom, onion, pepper and olives over tomato and cheese."
+      },
+      "price": 12.5,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAATABADASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAUCA//EABQBAQAAAAAAAAAAAAAAAAAAAAP/2gAMAwEAAhADEAAAAE6xHB+GRT//xAAfEAEAAAYDAQEAAAAAAAAAAAABAAIDERIxBBNBFCH/2gAIAQEAAT8AOFTlyAmW9hitT66gXuPsTVKbg5CaZh1eOdOdgDojkAYoeRUD5ya36u4//8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAC/9oACAECAQE/AMqti//EABgRAAMBAQAAAAAAAAAAAAAAAAABAhEh/9oACAEDAQE/AKSx8JP/2Q==",
+      "options": [],
+      "tags": [
+        "vegetarian"
+      ],
+      "calories": 750,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 5,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000003014",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001102",
+      "slug": "funghi",
+      "name": {
+        "ar": "فونغي",
+        "en": "Funghi e Aglio"
+      },
+      "description": {
+        "ar": "فطر بري وثوم محمّر وبقدونس مع جبنة موزاريلا.",
+        "en": "Wild mushrooms, roasted garlic and parsley with mozzarella."
+      },
+      "price": 13,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1590947132387-155cc02f3212?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABAP/xAAUAQEAAAAAAAAAAAAAAAAAAAAE/9oADAMBAAIQAxAAAACKBrIr/8QAHxAAAgICAQUAAAAAAAAAAAAAAREAAgMEIhIyQlFi/9oACAEBAAE/ANevGy+SBLWv0ri5iJeMPuKMb1a5PP3P/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAEDESH/2gAIAQIBAT8AlW2f/8QAFhEBAQEAAAAAAAAAAAAAAAAAIQAD/9oACAEDAQE/AM0v/9k=",
+      "options": [],
+      "tags": [
+        "vegetarian"
+      ],
+      "calories": 790,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 6,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000003015",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001103",
+      "slug": "carbonara",
+      "name": {
+        "ar": "كاربونارا",
+        "en": "Spaghetti Carbonara"
+      },
+      "description": {
+        "ar": "سباغيتي بصفار البيض والبيكورينو ولحم المقدد المقرمش.",
+        "en": "Spaghetti with egg yolk, pecorino and crisp beef pastrami."
+      },
+      "price": 13.5,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1608756687911-aa1599ab3bd9?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAYABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFAv/EABUBAQEAAAAAAAAAAAAAAAAAAAID/9oADAMBAAIQAxAAAACrqa4UsBWP/8QAIBAAAgICAAcAAAAAAAAAAAAAAQIAAxESBBMiMWFxsf/aAAgBAQABPwDcDAJmFYQXA46iPMpsJRy3YTm8ISWeohvUaw2DRE0r+z//xAAWEQEBAQAAAAAAAAAAAAAAAAABAAL/2gAIAQIBAT8AztWAG//EABcRAQEBAQAAAAAAAAAAAAAAAAECABH/2gAIAQMBAT8AqDmaU3//2Q==",
+      "options": [],
+      "tags": [
+        "popular"
+      ],
+      "calories": 720,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 0,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000003016",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001103",
+      "slug": "bolognese",
+      "name": {
+        "ar": "بولونيز",
+        "en": "Spaghetti Bolognese"
+      },
+      "description": {
+        "ar": "راغو لحم بطيء الطهي لست ساعات مع صلصة الطماطم.",
+        "en": "Beef ragù slow-cooked for six hours in tomato sauce."
+      },
+      "price": 12.5,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1572441713132-c542fc4fe282?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAUABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDBP/EABUBAQEAAAAAAAAAAAAAAAAAAAIB/9oADAMBAAIQAxAAAADKtaFPpCv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMAESEEEiIxMlJhof/aAAgBAQABPwBnyeQFBtxsG+VI6Tpnh6U5NQxMVCpbcPLJrT6aFr3XrJUcMY7RttY4r//EABgRAAIDAAAAAAAAAAAAAAAAAAECEBFB/9oACAECAQE/AC1ZH//EABYRAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAgBAwEBPwAysX//2Q==",
+      "options": [],
+      "tags": [],
+      "calories": 690,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 1,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000003017",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001103",
+      "slug": "arrabbiata",
+      "name": {
+        "ar": "بيني أرّابياتا",
+        "en": "Penne Arrabbiata"
+      },
+      "description": {
+        "ar": "بيني بصلصة الطماطم الحارة والثوم والبقدونس.",
+        "en": "Penne in a fiery tomato, garlic and parsley sauce."
+      },
+      "price": 11,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAQABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDBP/EABQBAQAAAAAAAAAAAAAAAAAAAAP/2gAMAwEAAhADEAAAANTRCX//xAAeEAACAgMAAwEAAAAAAAAAAAABAgMEABESISNBYf/aAAgBAQABPwD10ki2gMrjZ/MWdLACyxjR+5cVrSQWYB0OPOV43kZTwygNn//EABcRAQADAAAAAAAAAAAAAAAAAAIAASH/2gAIAQIBAT8AadPJ/8QAFxEBAAMAAAAAAAAAAAAAAAAAAgABIf/aAAgBAwEBPwAkWNn/2Q==",
+      "options": [],
+      "tags": [
+        "vegan",
+        "spicy"
+      ],
+      "calories": 560,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 2,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000003018",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001103",
+      "slug": "penne-cream",
+      "name": {
+        "ar": "بيني بالكريمة",
+        "en": "Creamy Penne"
+      },
+      "description": {
+        "ar": "بيني بصلصة الكريمة والجبنة مع قطع الفلفل والأعشاب.",
+        "en": "Penne in a cheese-cream sauce with pepper and fresh herbs."
+      },
+      "price": 12.5,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAMF/8QAFAEBAAAAAAAAAAAAAAAAAAAAA//aAAwDAQACEAMQAAAA3osMCf/EAB8QAAIBAwUBAAAAAAAAAAAAAAECAAMRMQQSISJBQv/aAAgBAQABPwDUs/K4vKYypboBuBPzG7Z8lZRwvli0/8QAGBEAAgMAAAAAAAAAAAAAAAAAABEBEhP/2gAIAQIBAT8ArOjZ/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAEREjH/2gAIAQMBAT8AlVw//9k=",
+      "options": [],
+      "tags": [
+        "vegetarian"
+      ],
+      "calories": 640,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 3,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000003019",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001103",
+      "slug": "vongole",
+      "name": {
+        "ar": "سباغيتي فونغولي",
+        "en": "Spaghetti Vongole"
+      },
+      "description": {
+        "ar": "سباغيتي مع بلح البحر والثوم والنبيذ الأبيض والفلفل.",
+        "en": "Spaghetti with clams, garlic, white wine and chilli."
+      },
+      "price": 17,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1595295333158-4742f28fbd85?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAQABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECA//EABQBAQAAAAAAAAAAAAAAAAAAAAP/2gAMAwEAAhADEAAAACHkaf/EAB4QAAIBBAMBAAAAAAAAAAAAAAIDAQAEESESE0Jy/9oACAEBAAE/AIBTLbvavRHoYLUzR29sKzwqI9D9VxUu2Wk3jjfWfkqeyCRKlsgyxuv/xAAXEQEAAwAAAAAAAAAAAAAAAAABABFR/9oACAECAQE/ACxMn//EABYRAQEBAAAAAAAAAAAAAAAAACEAUf/aAAgBAwEBPwAdv//Z",
+      "options": [],
+      "tags": [
+        "chef_pick"
+      ],
+      "calories": 590,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 4,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-00000000301a",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001103",
+      "slug": "shrimp-spaghetti",
+      "name": {
+        "ar": "سباغيتي الجمبري",
+        "en": "Shrimp Spaghetti"
+      },
+      "description": {
+        "ar": "جمبري مشوي وطماطم كرزية وثوم في مقلاة حديدية.",
+        "en": "Seared prawns, cherry tomatoes and garlic served in the skillet."
+      },
+      "price": 18,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAwEE/8QAFAEBAAAAAAAAAAAAAAAAAAAAAv/aAAwDAQACEAMQAAAAPAUL/8QAHhAAAgICAgMAAAAAAAAAAAAAAQIAAxExBAUSISL/2gAIAQEAAT8ArVbGdmw30QAZ2NaIQyesnUqd05FeDvcLvdyFWw+Qbc//xAAYEQACAwAAAAAAAAAAAAAAAAAAARETIf/aAAgBAgEBPwCHa9P/xAAYEQACAwAAAAAAAAAAAAAAAAAAAQMRMf/aAAgBAwEBPwC048P/2Q==",
+      "options": [],
+      "tags": [
+        "chef_pick"
+      ],
+      "calories": 620,
+      "isAvailable": true,
+      "isFeatured": true,
+      "sortOrder": 5,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-00000000301b",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001103",
+      "slug": "fettuccine-alfredo",
+      "name": {
+        "ar": "فيتوتشيني ألفريدو",
+        "en": "Fettuccine Alfredo"
+      },
+      "description": {
+        "ar": "فيتوتشيني بصلصة الزبدة والبارميزان الكريمية.",
+        "en": "Fettuccine in a rich butter and Parmesan cream sauce."
+      },
+      "price": 13,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1588013273468-315fd88ea34c?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAgQF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAv/aAAwDAQACEAMQAAAAlGSyv//EABwQAAIDAQADAAAAAAAAAAAAAAIDAAEEIRESYf/aAAgBAQABPwBOFGoBPz6/BmjDmCuUcF7U9WdjGbtZ8t1z/8QAFxEBAAMAAAAAAAAAAAAAAAAAAQARQf/aAAgBAgEBPwCnGf/EABcRAQADAAAAAAAAAAAAAAAAAAEAEUH/2gAIAQMBAT8As0n/2Q==",
+      "options": [],
+      "tags": [
+        "vegetarian"
+      ],
+      "calories": 780,
+      "isAvailable": false,
+      "isFeatured": false,
+      "sortOrder": 6,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-00000000301c",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001103",
+      "slug": "lasagna",
+      "name": {
+        "ar": "لازانيا",
+        "en": "Lasagna al Forno"
+      },
+      "description": {
+        "ar": "طبقات من العجين واللحم والبشاميل تُخبز حتى تتحمّر.",
+        "en": "Layers of pasta, beef ragù and béchamel baked until golden."
+      },
+      "price": 14.5,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1574894709920-11b28e7367e3?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAVABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAEDBP/EABUBAQEAAAAAAAAAAAAAAAAAAAID/9oADAMBAAIQAxAAAABQrWVNzBj/xAAjEAACAQIEBwAAAAAAAAAAAAACAwEABAURISISEyMyYWKB/9oACAEBAAE/AAwe1UGb2kVThdszRLTifarwDMBYPcucjikzzB1VPFQhB742l4pcMYMdTL5X/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQIQ/9oACAECAQE/AKtM/8QAFxEAAwEAAAAAAAAAAAAAAAAAAQIREP/aAAgBAwEBPwBUotz/2Q==",
+      "options": [],
+      "tags": [
+        "popular"
+      ],
+      "calories": 830,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 7,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-00000000301d",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001104",
+      "slug": "ribeye",
+      "name": {
+        "ar": "ريب آي على الحطب",
+        "en": "Wood-Fired Ribeye"
+      },
+      "description": {
+        "ar": "ستيك ريب آي ٣٠٠ غ مع بطاطا مشوية وزبدة الأعشاب.",
+        "en": "300 g ribeye with roasted potatoes and herb butter."
+      },
+      "price": 28,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1594041680534-e8c8cdebd659?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAUABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFA//EABUBAQEAAAAAAAAAAAAAAAAAAAID/9oADAMBAAIQAxAAAACToq3KqN8Ef//EAB8QAAICAgEFAAAAAAAAAAAAAAECABEDIQQFEjEyQv/aAAgBAQABPwDEhA9CQCbqLaBmqgPE4/J7BWwTdmOxZUVF0YqjRBIszpmFGz2flLn/xAAYEQACAwAAAAAAAAAAAAAAAAAAAREiQf/aAAgBAgEBPwC0iw//xAAYEQACAwAAAAAAAAAAAAAAAAAAARESUf/aAAgBAwEBPwBVg0//2Q==",
+      "options": [],
+      "tags": [
+        "chef_pick"
+      ],
+      "calories": 980,
+      "isAvailable": true,
+      "isFeatured": true,
+      "sortOrder": 0,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-00000000301e",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001104",
+      "slug": "steak-frites",
+      "name": {
+        "ar": "ستيك وبطاطا مقلية",
+        "en": "Steak Frites"
+      },
+      "description": {
+        "ar": "شريحة ستيك مشوية مع بطاطا مقرمشة وصلصة الفلفل.",
+        "en": "Grilled steak with crispy fries and peppercorn sauce."
+      },
+      "price": 24,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAwD/xAAUAQEAAAAAAAAAAAAAAAAAAAAD/9oADAMBAAIQAxAAAACAAJf/xAAdEAACAgMAAwAAAAAAAAAAAAABAgMRAAQSE0Fh/9oACAEBAAE/AEig1I0YBeyt9EXhiXYIjagDbF/YAzyyW0fR5VloZvyOnEasQrqC33P/xAAYEQACAwAAAAAAAAAAAAAAAAAAAQISMf/aAAgBAgEBPwBRdtP/xAAXEQEAAwAAAAAAAAAAAAAAAAABABEx/9oACAEDAQE/AFKyf//Z",
+      "options": [],
+      "tags": [
+        "popular"
+      ],
+      "calories": 900,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 1,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-00000000301f",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001104",
+      "slug": "mixed-grill",
+      "name": {
+        "ar": "المشاوي المشكّلة",
+        "en": "Jamr Mixed Grill"
+      },
+      "description": {
+        "ar": "كباب وشيش طاووق وريش غنم مع بطاطا وخضار مشوية.",
+        "en": "Kebab, shish tawook and lamb chops with roasted potatoes and vegetables."
+      },
+      "price": 26,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAYABADASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwABAv/EABUBAQEAAAAAAAAAAAAAAAAAAAID/9oADAMBAAIQAxAAAAAWHZW5KkP/xAAhEAABBAEEAwEAAAAAAAAAAAACAQMREgATIUFCMlFhof/aAAgBAQABPwDRBGBOuoil4JOG0w/tQUOnX5gHAGBHCks29ThUalOf3FcbeBEdMQ0m6hXthGy022i2vG/Mpn//xAAXEQEBAQEAAAAAAAAAAAAAAAABAAIh/9oACAECAQE/ANLJ2//EABYRAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAgBAwEBPwAyRf/Z",
+      "options": [],
+      "tags": [
+        "popular"
+      ],
+      "calories": 1050,
+      "isAvailable": true,
+      "isFeatured": true,
+      "sortOrder": 2,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000003020",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001104",
+      "slug": "lamb-skewers",
+      "name": {
+        "ar": "أسياخ لحم الغنم",
+        "en": "Lamb Skewers"
+      },
+      "description": {
+        "ar": "أسياخ غنم متبّلة بالبهارات مع سلطة وبطاطا.",
+        "en": "Spiced lamb skewers with salad and fries."
+      },
+      "price": 19,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAVABADASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAQL/xAAVAQEBAAAAAAAAAAAAAAAAAAACBP/aAAwDAQACEAMQAAAAZsfMtDaQZ//EACQQAAIBAwEJAQAAAAAAAAAAAAECAwAEEWESEyExMkFCUXGB/9oACAEBAAE/ALZY7K3Qy9b8aSe0mLB1wPlX0rSTIMYIqDkTp61oQb2Zy7eWP096jhSNCqDG02DX/8QAGxEAAgEFAAAAAAAAAAAAAAAAAAEhAhIiMXH/2gAIAQIBAT8Al5zcUbfD/8QAGBEBAQADAAAAAAAAAAAAAAAAAgABMTL/2gAIAQMBAT8AAPOdSv/Z",
+      "options": [],
+      "tags": [],
+      "calories": 760,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 3,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000003021",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001104",
+      "slug": "bbq-ribs",
+      "name": {
+        "ar": "ريبس لحم بصلصة الباربكيو",
+        "en": "BBQ Short Ribs"
+      },
+      "description": {
+        "ar": "ريبس مطهوّة ببطء ومغلّفة بصلصة الباربكيو الدخانية.",
+        "en": "Slow-cooked beef ribs glazed with smoky barbecue sauce."
+      },
+      "price": 22,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAgMEBf/EABQBAQAAAAAAAAAAAAAAAAAAAAP/2gAMAwEAAhADEAAAAJFBpGv/xAAfEAACAQQCAwAAAAAAAAAAAAACAwEABBJCERMhIpL/2gAIAQEAAT8AVYCsBM8s9o1q5tOxkkj42pj2obys5HzV0AyuW8e8Jyia/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAECEjH/2gAIAQIBAT8AdlLT/8QAFxEBAAMAAAAAAAAAAAAAAAAAAQAhIv/aAAgBAwEBPwDKUT//2Q==",
+      "options": [],
+      "tags": [
+        "popular"
+      ],
+      "calories": 890,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 4,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000003022",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001104",
+      "slug": "veal-chop",
+      "name": {
+        "ar": "ريش عجل مشوية",
+        "en": "Grilled Veal Chop"
+      },
+      "description": {
+        "ar": "ريش عجل مشوية مع تفاح كراميل وخضار.",
+        "en": "Grilled chop with caramelised apple and greens."
+      },
+      "price": 18.5,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1432139555190-58524dae6a55?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDBf/EABUBAQEAAAAAAAAAAAAAAAAAAAID/9oADAMBAAIQAxAAAABiW1J//8QAHhAAAgEEAwEAAAAAAAAAAAAAAQIDAAQREiEiM0H/2gAIAQEAAT8AubiWFiOuNaW7aIjYK2fm1el86vyoJqCCFY1IjXOa/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAIBETH/2gAIAQIBAT8AtpbT/8QAFxEBAAMAAAAAAAAAAAAAAAAAAQACIf/aAAgBAwEBPwBypP/Z",
+      "options": [],
+      "tags": [],
+      "calories": 720,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 5,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000003023",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001104",
+      "slug": "grilled-salmon",
+      "name": {
+        "ar": "سلمون مشوي",
+        "en": "Grilled Salmon"
+      },
+      "description": {
+        "ar": "فيليه سلمون مشوي مع سبانخ وزبدة الليمون.",
+        "en": "Grilled salmon fillet with wilted spinach and lemon butter."
+      },
+      "price": 21,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAwIF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAAxlGz/8QAHBAAAgIDAQEAAAAAAAAAAAAAAQIAEQMEMSFB/9oACAEBAAE/AMC672HYqbmzqphAIe7+RVU+0LmUk2T09M//xAAZEQACAwEAAAAAAAAAAAAAAAAREgABIVH/2gAIAQIBAT8AWyWzk//EABYRAQEBAAAAAAAAAAAAAAAAABEAAf/aAAgBAwEBPwBwC//Z",
+      "options": [],
+      "tags": [
+        "gluten_free"
+      ],
+      "calories": 620,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 6,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000003024",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001104",
+      "slug": "sirloin",
+      "name": {
+        "ar": "شرائح السيرلوين",
+        "en": "Sliced Sirloin"
+      },
+      "description": {
+        "ar": "سيرلوين مشوي بدرجة التسوية التي تفضّلها، مقطّع للتقديم.",
+        "en": "Sirloin grilled to your liking, sliced for the table."
+      },
+      "price": 25,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAJABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAEF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgP/2gAMAwEAAhADEAAAAMymeaf/xAAbEAACAgMBAAAAAAAAAAAAAAABAgADBBESM//aAAgBAQABPwCu2ok7SPd0HCFiWg9nmPP/xAAWEQADAAAAAAAAAAAAAAAAAAAAESH/2gAIAQIBAT8AVP/EABYRAQEBAAAAAAAAAAAAAAAAABEAAv/aAAgBAwEBPwBc3//Z",
+      "options": [],
+      "tags": [
+        "chef_pick"
+      ],
+      "calories": 760,
+      "isAvailable": false,
+      "isFeatured": false,
+      "sortOrder": 7,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000003025",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001105",
+      "slug": "tiramisu",
+      "name": {
+        "ar": "تيراميسو",
+        "en": "Tiramisu"
+      },
+      "description": {
+        "ar": "ماسكربوني ناعم وقهوة إسبريسو وكاكاو داكن.",
+        "en": "Silky mascarpone, espresso and dark cocoa."
+      },
+      "price": 7,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAVABADASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIDBP/EABUBAQEAAAAAAAAAAAAAAAAAAAID/9oADAMBAAIQAxAAAACI6s43gBf/xAAfEAACAgEEAwAAAAAAAAAAAAABAgADERITITFBQlH/2gAIAQEAAT8ACoqLtpqBBi0XNlzUy8ckSxggAStmOPEwVKF8qzesdyCpPJHR6MCixtR7+z//xAAYEQEBAAMAAAAAAAAAAAAAAAABABESUf/aAAgBAgEBPwAXls4v/8QAFxEBAQEBAAAAAAAAAAAAAAAAEQEAAv/aAAgBAwEBPwDqNXEd/9k=",
+      "options": [],
+      "tags": [
+        "popular",
+        "vegetarian"
+      ],
+      "calories": 430,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 0,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000003026",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001105",
+      "slug": "blueberry-cheesecake",
+      "name": {
+        "ar": "تشيز كيك التوت",
+        "en": "Blueberry Cheesecake"
+      },
+      "description": {
+        "ar": "تشيز كيك كريمي على قاعدة بسكويت وصلصة التوت الأزرق.",
+        "en": "Creamy cheesecake on a biscuit base with blueberry compote."
+      },
+      "price": 7.5,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAgMEBf/EABQBAQAAAAAAAAAAAAAAAAAAAAL/2gAMAwEAAhADEAAAAF1hlBf/xAAdEAADAAIDAQEAAAAAAAAAAAABAgMAEQQSE0JS/9oACAEBAAE/AJy5fnPzZSfotjh0i1Kqo6/k7wUeYHVtZyb2q2nckA5//8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAIAQIBAT8Aj//EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAIAQMBAT8Af//Z",
+      "options": [],
+      "tags": [
+        "vegetarian"
+      ],
+      "calories": 470,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 1,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000003027",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001105",
+      "slug": "chocolate-parfait",
+      "name": {
+        "ar": "بارفيه الشوكولاتة",
+        "en": "Chocolate Parfait"
+      },
+      "description": {
+        "ar": "طبقات من الكريمة والشوكولاتة والبسكويت المطحون.",
+        "en": "Layers of cream, chocolate and crushed biscuit."
+      },
+      "price": 8,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAdABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABQMC/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAEDBP/aAAwDAQACEAMQAAAAUMzBFDmYw0f/xAAgEAACAgMAAQUAAAAAAAAAAAABAgADBBESFCEjMTKh/9oACAEBAAE/ALlxrATYVOo+Ajr1WZh4zi+wr8ojehjm6l7Ozx7gl+WxtCMAJcrDeiCCep4dZO9mWYQ19/yf/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAECEf/aAAgBAgEBPwDRWj//xAAYEQADAQEAAAAAAAAAAAAAAAAAARECEv/aAAgBAwEBPwDNapwz/9k=",
+      "options": [],
+      "tags": [
+        "vegetarian",
+        "new"
+      ],
+      "calories": 520,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 2,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000003028",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001105",
+      "slug": "panna-cotta",
+      "name": {
+        "ar": "بانا كوتا بالفراولة",
+        "en": "Strawberry Panna Cotta"
+      },
+      "description": {
+        "ar": "كريمة الفانيليا الإيطالية مع فراولة طازجة.",
+        "en": "Italian vanilla cream with fresh strawberries."
+      },
+      "price": 6.5,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAYABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAADdUyUvShBn/8QAHhAAAgIBBQEAAAAAAAAAAAAAAQIDEQAEEyExUSL/2gAIAQEAAT8AMolCyRvYB5HuJO7MfD1jpIhfaj6X5Ppyt8BZBUimzWTrMyVEwVs1WmoGa6IGf//EABYRAQEBAAAAAAAAAAAAAAAAAAARIf/aAAgBAgEBPwDaj//EABYRAQEBAAAAAAAAAAAAAAAAABEAAf/aAAgBAwEBPwAwnQv/2Q==",
+      "options": [],
+      "tags": [
+        "vegetarian",
+        "gluten_free"
+      ],
+      "calories": 290,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 3,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000003029",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001105",
+      "slug": "gelato",
+      "name": {
+        "ar": "جيلاتو إيطالي",
+        "en": "Italian Gelato"
+      },
+      "description": {
+        "ar": "ثلاث كرات من الجيلاتو بنكهات اليوم.",
+        "en": "Three scoops of gelato in the flavours of the day."
+      },
+      "price": 6,
+      "oldPrice": 7,
+      "imageUrl": "https://images.unsplash.com/photo-1570197788417-0e82375c9371?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAXABADASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMFAgT/xAAVAQEBAAAAAAAAAAAAAAAAAAADBP/aAAwDAQACEAMQAAAA79OYgR6QFR//xAAfEAEBAAICAQUAAAAAAAAAAAABAgADERIhBCJBYZH/2gAIAQEAAT8A1wBlSJ9Ya+PaWdsZnZ4EE+MN9zSzPD+56eqo7Uec/8QAGREAAgMBAAAAAAAAAAAAAAAAABEBAhIT/9oACAECAQE/AOtd5IrDaP/EABsRAAIBBQAAAAAAAAAAAAAAAAARAQISEzGB/9oACAEDAQE/AMFdjXBytn//2Q==",
+      "options": [],
+      "tags": [
+        "vegetarian"
+      ],
+      "calories": 330,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 4,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-00000000302a",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001105",
+      "slug": "fig-pomegranate",
+      "name": {
+        "ar": "تين ورمان",
+        "en": "Fig & Pomegranate"
+      },
+      "description": {
+        "ar": "تين طازج ورمان وجبنة ريكوتا وعسل.",
+        "en": "Fresh figs, pomegranate, ricotta and honey."
+      },
+      "price": 8.5,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1544510808-91bcbee1df55?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABQP/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAAAJQEuV//EAB8QAAICAgEFAAAAAAAAAAAAAAIDAAEEIRIiMVFykv/aAAgBAQABPwDGRkNo2APT5uPY41soWcuw+0F7k7WZDLynEvZV81P/xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQIBAT8Awb//xAAXEQEAAwAAAAAAAAAAAAAAAAABAAIh/9oACAEDAQE/AC2M/9k=",
+      "options": [],
+      "tags": [
+        "vegetarian",
+        "gluten_free"
+      ],
+      "calories": 260,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 5,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-00000000302b",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001105",
+      "slug": "chocolate-fondant",
+      "name": {
+        "ar": "فوندان الشوكولاتة",
+        "en": "Chocolate Fondant"
+      },
+      "description": {
+        "ar": "كيك شوكولاتة دافئ بقلب سائل مع جيلاتو الفانيليا.",
+        "en": "Warm chocolate cake with a molten centre and vanilla gelato."
+      },
+      "price": 8,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAYABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFA//EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEAMQAAAAZzlVjSrQR//EAB8QAAEEAgIDAAAAAAAAAAAAAAIAAQMRBAUSURMjYv/aAAgBAQABPwBtbi8bKNlPp4SsoycFLNnO/v8AJV10K1k8pmcRHYsKkxMnKp+bD0yxtcQWUxMJfL2v/8QAFREBAQAAAAAAAAAAAAAAAAAAAAH/2gAIAQIBAT8ASP/EABYRAQEBAAAAAAAAAAAAAAAAAAABMf/aAAgBAwEBPwBbr//Z",
+      "options": [],
+      "tags": [
+        "chef_pick",
+        "vegetarian"
+      ],
+      "calories": 580,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 6,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-00000000302c",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001106",
+      "slug": "virgin-mojito",
+      "name": {
+        "ar": "موهيتو",
+        "en": "Virgin Mojito"
+      },
+      "description": {
+        "ar": "نعناع طازج وليمون أخضر وصودا باردة.",
+        "en": "Fresh mint, lime and chilled soda."
+      },
+      "price": 5.5,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1551538827-9c037cb4f32a?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAUABADASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIGAwT/xAAXAQADAQAAAAAAAAAAAAAAAAAAAQID/9oADAMBAAIQAxAAAACh4kQU/mEaf//EACIQAAICAQIHAQAAAAAAAAAAAAECAAMEERIFEyEjMVFhcv/aAAgBAQABPwAKBt9KNBOIPpi2/mJk11qV3szCC3GyABbWW1PhhLLW51nxjHysjp3Wn//EABcRAQEBAQAAAAAAAAAAAAAAAAEAAkH/2gAIAQIBAT8ANF0v/8QAFREBAQAAAAAAAAAAAAAAAAAAAEH/2gAIAQMBAT8AR//Z",
+      "options": [],
+      "tags": [
+        "vegan",
+        "popular"
+      ],
+      "calories": 90,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 0,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-00000000302d",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001106",
+      "slug": "blackberry-smash",
+      "name": {
+        "ar": "بلاك بيري سماش",
+        "en": "Blackberry Smash"
+      },
+      "description": {
+        "ar": "توت العليق والليمون وأوراق الريحان مع قشور البرتقال المجففة.",
+        "en": "Blackberry, lemon and basil with dried orange."
+      },
+      "price": 6,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1536935338788-846bb9981813?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAQMFBv/EABQBAQAAAAAAAAAAAAAAAAAAAAP/2gAMAwEAAhADEAAAAIaNKQf/xAAeEAACAgICAwAAAAAAAAAAAAABAwACERIEExQxQf/aAAgBAQABPwDirQxbdzcWA+S6WUtgzhKX4qDoMmkapXfWpXXGmfU//8QAFxEBAAMAAAAAAAAAAAAAAAAAAQADEf/aAAgBAgEBPwBtxZ//xAAXEQEAAwAAAAAAAAAAAAAAAAABAAIh/9oACAEDAQE/ACmE/9k=",
+      "options": [],
+      "tags": [
+        "vegan",
+        "new"
+      ],
+      "calories": 110,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 1,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-00000000302e",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001106",
+      "slug": "rosemary-spritz",
+      "name": {
+        "ar": "سبريتز الروزماري",
+        "en": "Rosemary Spritz"
+      },
+      "description": {
+        "ar": "عصير تفاح وبرتقال مع روزماري محروق وصودا.",
+        "en": "Apple and orange with torched rosemary and soda."
+      },
+      "price": 6.5,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECBv/EABQBAQAAAAAAAAAAAAAAAAAAAAL/2gAMAwEAAhADEAAAAMzbA//EAB0QAAICAgMBAAAAAAAAAAAAAAECAAMREgQTQWH/2gAIAQEAAT8Aoq7bAuGx8Ev47UuRglfDEusRwFYici+0nTc6jyf/xAAXEQADAQAAAAAAAAAAAAAAAAAAEiJh/9oACAECAQE/AKbD/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAIREmH/2gAIAQMBAT8Aha6f/9k=",
+      "options": [],
+      "tags": [
+        "vegan"
+      ],
+      "calories": 120,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 2,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-00000000302f",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001106",
+      "slug": "watermelon-cooler",
+      "name": {
+        "ar": "بطيخ بالنعناع",
+        "en": "Watermelon Cooler"
+      },
+      "description": {
+        "ar": "بطيخ طازج وليمون أخضر ونعناع على الثلج.",
+        "en": "Fresh watermelon, lime and mint over ice."
+      },
+      "price": 5.5,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1527661591475-527312dd65f5?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAXABADASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQCAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAADAP/aAAwDAQACEAMQAAAA1mULTRCQDf/EACAQAAIBAwQDAAAAAAAAAAAAAAECAwARIgQhMXESE2H/2gAIAQEAAT8A087GTLl+fle7Iq1hbcmklZg1oh4g2JWmkIGY264qWUxOGjc5U85OcRt3X//EABkRAQACAwAAAAAAAAAAAAAAAAEAAhESMf/aAAgBAgEBPwAdestZzP/EABoRAAICAwAAAAAAAAAAAAAAAAACAQMiMmH/2gAIAQMBAT8AdlsyRSjWeSf/2Q==",
+      "options": [],
+      "tags": [
+        "vegan"
+      ],
+      "calories": 100,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 3,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000003030",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001106",
+      "slug": "sparkling-water",
+      "name": {
+        "ar": "مياه فوّارة",
+        "en": "Sparkling Water"
+      },
+      "description": {
+        "ar": "مياه معدنية فوّارة باردة.",
+        "en": "Chilled sparkling mineral water."
+      },
+      "price": 4,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1523362628745-0c100150b504?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAJABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAMF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAANMZYV//xAAgEAABAwMFAQAAAAAAAAAAAAACAAEEAwVyIjEzNIKy/9oACAEBAAE/AIx02kztTbh8q9GBwQzFRueZ5Vx61HJl/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAgEBPwB//8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAwEBPwB//9k=",
+      "options": [
+        {
+          "id": "opt-49-1",
+          "name": {
+            "ar": "صغير",
+            "en": "Small"
+          },
+          "price": 4
+        },
+        {
+          "id": "opt-49-2",
+          "name": {
+            "ar": "كبير",
+            "en": "Large"
+          },
+          "price": 7
+        }
+      ],
+      "tags": [
+        "vegan"
+      ],
+      "calories": 0,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 4,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000003031",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001106",
+      "slug": "mint-lime-soda",
+      "name": {
+        "ar": "صودا الليمون والنعناع",
+        "en": "Mint Lime Soda"
+      },
+      "description": {
+        "ar": "ليمون وشرائح نعناع مع صودا وثلج.",
+        "en": "Lime and mint over soda and ice."
+      },
+      "price": 5,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAYABADASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAUGAgT/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAAAnsO1VFHwAV//xAAhEAACAQQABwAAAAAAAAAAAAACEQEAAwQSEBMUISIjUf/aAAgBAQABPwDWdYJdmuGCJ9KXrauTV0fI9pU7TUhcFcsV92J1cwWTr//EABURAQEAAAAAAAAAAAAAAAAAABAR/9oACAECAQE/AKf/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAwEBPwBH/9k=",
+      "options": [],
+      "tags": [
+        "vegan"
+      ],
+      "calories": 60,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 5,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000003032",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001106",
+      "slug": "red-wine",
+      "name": {
+        "ar": "كأس نبيذ أحمر",
+        "en": "House Red (glass)"
+      },
+      "description": {
+        "ar": "كأس من نبيذ البيت الأحمر المنتقى.",
+        "en": "A glass of our selected house red."
+      },
+      "price": 8,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAwIE/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAEt8hX//xAAdEAACAgIDAQAAAAAAAAAAAAABAgMRAAQTITEi/9oACAEBAAE/AJyjORJJT31QwNsa9kSBS56+bOLrwCJG41u/c2+nYDwZ/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAR/9oACAECAQE/AA2//8QAFxEBAAMAAAAAAAAAAAAAAAAAAQARQf/aAAgBAwEBPwCwyf/Z",
+      "options": [],
+      "tags": [],
+      "calories": 125,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 6,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000003033",
+      "restaurantId": "20000000-0000-4000-8000-000000000001",
+      "categoryId": "20000000-0000-4000-8000-000000001106",
+      "slug": "white-wine",
+      "name": {
+        "ar": "كأس نبيذ أبيض",
+        "en": "House White (glass)"
+      },
+      "description": {
+        "ar": "كأس من نبيذ البيت الأبيض المنعش.",
+        "en": "A glass of our crisp house white."
+      },
+      "price": 8,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAEFBv/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAACm8eV//8QAIBAAAQIFBQAAAAAAAAAAAAAAAAECAwQFFVMREjFCcf/aAAgBAQABPwCFUN3XwfUYTOdS5z2dS5T2dT//xAAVEQEBAAAAAAAAAAAAAAAAAAAAIf/aAAgBAgEBPwCv/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAwEBPwB//9k=",
+      "options": [],
+      "tags": [],
+      "calories": 120,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 7,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    }
+  ]
+}

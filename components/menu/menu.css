@@ -1,0 +1,427 @@
+/*
+ * Public menu styles (imported by app/[lang]/r/[slug]/layout.tsx).
+ * Plain CSS on top of Tailwind utilities: template palettes, radius scale, card variants,
+ * keyframes. Templates: aurora (soft café), noir (dark editorial), pop (bold, playful).
+ * Motion here animates transform/opacity only.
+ */
+
+.menu-root {
+  --menu-header-h: calc(3.5rem + env(safe-area-inset-top, 0px));
+  --menu-nav-h: 3.5rem;
+  --menu-offset: calc(var(--menu-header-h) + var(--menu-nav-h) + 0.75rem);
+  --brand-ink: var(--brand-ink-light);
+  --accent-ink: var(--accent-ink-light);
+  --r-card: 1.5rem;
+  --r-img: 1.125rem;
+  --r-pill: 999px;
+  --m-ink: var(--m-fg);
+  position: relative;
+  isolation: isolate;
+  min-height: 100dvh;
+  background-color: var(--m-bg);
+  color: var(--m-fg);
+  overflow-x: clip;
+  -webkit-tap-highlight-color: transparent;
+}
+.dark .menu-root {
+  --brand-ink: var(--brand-ink-dark);
+  --accent-ink: var(--accent-ink-dark);
+}
+@media (min-width: 1024px) {
+  .menu-root {
+    --menu-offset: calc(var(--menu-header-h) + var(--menu-filter-h, 6.9rem) + 0.5rem);
+  }
+}
+
+/* Radius scale (restaurant setting) */
+.menu-root[data-radius="sharp"] {
+  --r-card: 0.25rem;
+  --r-img: 0.125rem;
+  --r-pill: 0.375rem;
+}
+.menu-root[data-radius="soft"] {
+  --r-card: 0.875rem;
+  --r-img: 0.625rem;
+  --r-pill: 0.75rem;
+}
+
+/* ---------------------------------------------------------------- */
+/* Template palettes                                                 */
+/* ---------------------------------------------------------------- */
+
+.menu-root[data-template="aurora"] {
+  --m-bg: color-mix(in oklab, var(--brand) 4%, #fbf8f4);
+  --m-surface: #ffffff;
+  --m-surface-2: color-mix(in oklab, var(--brand) 8%, #f5f0e9);
+  --m-fg: #1f1a16;
+  --m-muted: #6a6158;
+  --m-line: rgb(31 26 22 / 0.09);
+  --m-shadow: 0 1px 2px rgb(60 35 10 / 0.05), 0 10px 28px -12px rgb(60 35 10 / 0.16);
+  --m-shadow-hover: 0 2px 6px rgb(60 35 10 / 0.06), 0 24px 48px -18px rgb(60 35 10 / 0.3);
+}
+.dark .menu-root[data-template="aurora"] {
+  --m-bg: color-mix(in oklab, var(--brand) 5%, #12100e);
+  --m-surface: color-mix(in oklab, var(--brand) 5%, #1c1916);
+  --m-surface-2: color-mix(in oklab, var(--brand) 10%, #24201c);
+  --m-fg: #f5f0ea;
+  --m-muted: #aaa196;
+  --m-line: rgb(255 255 255 / 0.08);
+  --m-shadow: 0 1px 2px rgb(0 0 0 / 0.3), 0 12px 30px -14px rgb(0 0 0 / 0.6);
+  --m-shadow-hover: 0 2px 6px rgb(0 0 0 / 0.35), 0 26px 50px -18px rgb(0 0 0 / 0.75);
+}
+
+.menu-root[data-template="noir"] {
+  --m-bg: #f4efe5;
+  --m-surface: #faf6ef;
+  --m-surface-2: #ece5d8;
+  --m-fg: #17140f;
+  --m-muted: #6b6356;
+  --m-line: rgb(23 20 15 / 0.14);
+  --m-shadow: none;
+  --m-shadow-hover: 0 18px 40px -22px rgb(23 20 15 / 0.35);
+}
+.dark .menu-root[data-template="noir"] {
+  --m-bg: #0b0a09;
+  --m-surface: #131210;
+  --m-surface-2: #1c1a17;
+  --m-fg: #eee7db;
+  --m-muted: #9d9486;
+  --m-line: rgb(238 231 219 / 0.12);
+  --m-shadow: none;
+  --m-shadow-hover: 0 22px 48px -24px rgb(0 0 0 / 0.9);
+}
+
+.menu-root[data-template="pop"] {
+  --m-bg: color-mix(in oklab, var(--brand) 7%, #fff8ec);
+  --m-surface: #ffffff;
+  --m-surface-2: color-mix(in oklab, var(--brand-accent) 14%, #fff4de);
+  --m-fg: #141414;
+  --m-muted: #57534e;
+  --m-line: rgb(20 20 20 / 0.12);
+  --m-ink: #141414;
+  --m-shadow: 4px 4px 0 var(--m-ink);
+  --m-shadow-hover: 7px 7px 0 var(--m-ink);
+  background-image: radial-gradient(color-mix(in oklab, var(--m-ink) 9%, transparent) 1px, transparent 1.4px);
+  background-size: 18px 18px;
+}
+.dark .menu-root[data-template="pop"] {
+  --m-bg: #151413;
+  --m-surface: #1f1e1c;
+  --m-surface-2: color-mix(in oklab, var(--brand-accent) 16%, #1f1e1c);
+  --m-fg: #faf6ee;
+  --m-muted: #b6b0a6;
+  --m-line: rgb(250 246 238 / 0.12);
+  --m-ink: #faf6ee;
+}
+[dir="rtl"] .menu-root[data-template="pop"] {
+  --m-shadow: -4px 4px 0 var(--m-ink);
+  --m-shadow-hover: -7px 7px 0 var(--m-ink);
+}
+
+/* Noir: fine film grain behind the content (static, no blending). */
+.menu-root[data-template="noir"]::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0.06;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.5 0 0 0 0 0.5 0 0 0 0 0.5 0 0 0 1 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+}
+
+/* ---------------------------------------------------------------- */
+/* Surfaces & cards                                                  */
+/* ---------------------------------------------------------------- */
+
+.m-glass {
+  background: color-mix(in oklab, var(--m-bg) 80%, transparent);
+  -webkit-backdrop-filter: blur(16px) saturate(1.5);
+  backdrop-filter: blur(16px) saturate(1.5);
+}
+
+.m-card {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  text-align: start;
+  background: var(--m-surface);
+  border-radius: var(--r-card);
+  box-shadow: var(--m-shadow);
+  transition: transform 260ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  outline: none;
+}
+/* Hover shadow lives on a pseudo-element so only its opacity animates. */
+.m-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  box-shadow: var(--m-shadow-hover);
+  opacity: 0;
+  transition: opacity 260ms ease;
+  pointer-events: none;
+}
+.m-card:focus-visible {
+  outline: 2px solid var(--brand-ink);
+  outline-offset: 3px;
+}
+.m-card:active {
+  transform: scale(0.975);
+}
+.m-card .m-zoom {
+  transition: transform 700ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+@media (hover: hover) and (pointer: fine) {
+  .m-card:hover {
+    transform: translateY(-4px);
+  }
+  .m-card:hover::after {
+    opacity: 1;
+  }
+  .m-card:hover .m-zoom {
+    transform: scale(1.07);
+  }
+  .m-card:active {
+    transform: translateY(-1px) scale(0.985);
+  }
+}
+
+.menu-root[data-template="noir"] .m-card {
+  background: transparent;
+  border: 1px solid var(--m-line);
+}
+.menu-root[data-template="noir"] .m-card[data-view="list"] {
+  border-width: 0 0 1px 0;
+  border-radius: 0;
+}
+.menu-root[data-template="pop"] .m-card {
+  border: 2px solid var(--m-ink);
+}
+.menu-root[data-template="pop"] .m-card::after {
+  box-shadow: none;
+}
+@media (hover: hover) and (pointer: fine) {
+  .menu-root[data-template="pop"] .m-card:hover {
+    transform: translate(-2px, -3px) rotate(-0.4deg);
+  }
+  [dir="rtl"] .menu-root[data-template="pop"] .m-card:hover {
+    transform: translate(2px, -3px) rotate(0.4deg);
+  }
+}
+.menu-root[data-template="pop"] .m-card:active {
+  transform: translate(2px, 2px) scale(0.985);
+}
+
+/* Press feedback for any tappable element */
+.m-press {
+  transition: transform 180ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.m-press:active {
+  transform: scale(0.95);
+}
+
+/* Focus ring for custom controls */
+.m-focus:focus-visible {
+  outline: 2px solid var(--brand-ink);
+  outline-offset: 2px;
+}
+
+/* Brand-tinted text that keeps contrast */
+.m-brand-text {
+  color: var(--brand-ink);
+}
+.m-accent-text {
+  color: var(--accent-ink);
+}
+
+/* Pop: highlighter stroke behind section titles */
+.m-highlight {
+  background-image: linear-gradient(transparent 58%, color-mix(in oklab, var(--brand) 45%, transparent) 58%, color-mix(in oklab, var(--brand) 45%, transparent) 92%, transparent 92%);
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  padding-inline: 0.15em;
+}
+
+/* Noir: dotted leader between dish name and price */
+.m-leader {
+  flex: 1 1 auto;
+  min-width: 1.5rem;
+  height: 0;
+  border-bottom: 1px dotted color-mix(in oklab, var(--m-fg) 35%, transparent);
+  transform: translateY(-0.3em);
+}
+
+/* Sold-out ribbon (start corner, flips in RTL) */
+.m-ribbon {
+  position: absolute;
+  top: 0.9rem;
+  inset-inline-start: -2.4rem;
+  width: 9rem;
+  padding-block: 0.2rem;
+  text-align: center;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background: #1c1917;
+  transform: rotate(-40deg);
+  box-shadow: 0 4px 10px rgb(0 0 0 / 0.25);
+  z-index: 2;
+}
+[dir="rtl"] .m-ribbon {
+  transform: rotate(40deg);
+}
+.dark .m-ribbon {
+  background: #f5f5f4;
+  color: #1c1917;
+}
+
+/* ---------------------------------------------------------------- */
+/* Hero                                                              */
+/* ---------------------------------------------------------------- */
+
+@keyframes m-kenburns {
+  from {
+    transform: scale(1.04) translate3d(0, 0, 0);
+  }
+  to {
+    transform: scale(1.16) translate3d(-2%, -1.5%, 0);
+  }
+}
+.m-kenburns {
+  animation: m-kenburns 24s ease-in-out infinite alternate;
+  transform-origin: 60% 40%;
+  will-change: transform;
+}
+
+@keyframes m-float {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    transform: translate3d(4%, -6%, 0) scale(1.08);
+  }
+}
+.m-blob {
+  position: absolute;
+  border-radius: 999px;
+  filter: blur(48px);
+  opacity: 0.55;
+  animation: m-float 14s ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes m-pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(2.6);
+    opacity: 0;
+  }
+}
+.m-pulse-dot {
+  position: relative;
+}
+.m-pulse-dot::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: inherit;
+  animation: m-pulse 1.8s ease-out infinite;
+}
+
+/* Pop hero: zigzag bottom edge */
+.m-zigzag {
+  -webkit-mask: conic-gradient(from -45deg at bottom, #0000, #000 1deg 89deg, #0000 90deg) 50% / 28px 100%;
+  mask: conic-gradient(from -45deg at bottom, #0000, #000 1deg 89deg, #0000 90deg) 50% / 28px 100%;
+  padding-bottom: 14px;
+}
+
+/* ---------------------------------------------------------------- */
+/* Skeleton shimmer                                                  */
+/* ---------------------------------------------------------------- */
+
+@keyframes m-shimmer {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+.m-shimmer {
+  position: relative;
+  overflow: hidden;
+  background: rgb(128 128 128 / 0.14);
+}
+.m-shimmer::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, transparent, rgb(255 255 255 / 0.4), transparent);
+  animation: m-shimmer 1.5s ease-in-out infinite;
+}
+.dark .m-shimmer::after {
+  background: linear-gradient(90deg, transparent, rgb(255 255 255 / 0.08), transparent);
+}
+[dir="rtl"] .m-shimmer::after {
+  animation-direction: reverse;
+}
+
+/* Image blur-up: blurred placeholder fades into the sharp image */
+.m-img {
+  transition: opacity 500ms ease;
+}
+
+/* ---------------------------------------------------------------- */
+/* Theme switch                                                      */
+/* ---------------------------------------------------------------- */
+
+html.m-vt::view-transition-old(root),
+html.m-vt::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+html.m-vt::view-transition-old(root) {
+  z-index: 1;
+}
+html.m-vt::view-transition-new(root) {
+  z-index: 2;
+}
+html.m-theme-fade .menu-root,
+html.m-theme-fade .menu-root * {
+  transition:
+    background-color 320ms ease,
+    color 320ms ease,
+    border-color 320ms ease !important;
+}
+
+/* Vaul drawer content needs the template variables too (it renders in a portal). */
+.m-sheet {
+  background: var(--m-surface);
+  color: var(--m-fg);
+}
+
+/* Scroll snapping helpers */
+.m-snap-x {
+  scroll-snap-type: x mandatory;
+  overscroll-behavior-x: contain;
+  -webkit-overflow-scrolling: touch;
+}
+.m-snap-x > * {
+  scroll-snap-align: start;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .m-kenburns,
+  .m-blob,
+  .m-pulse-dot::after,
+  .m-shimmer::after {
+    animation: none !important;
+  }
+}

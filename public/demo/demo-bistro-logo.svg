@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="Jamr Fire and Grill logo">
+  <circle cx="60" cy="60" r="58" fill="#1B1013"/>
+  <circle cx="60" cy="60" r="53" fill="none" stroke="#C9A24B" stroke-width="2"/>
+  <circle cx="60" cy="60" r="48" fill="none" stroke="#C9A24B" stroke-opacity=".35" stroke-width="1"/>
+  <path d="M60 22c3 12 18 20 18 38a18 18 0 0 1-36 0c0-9 5-14 9-19 1 6 4 9 7 10-3-12-1-21 2-29z" fill="#C9A24B"/>
+  <path d="M60 52c2 7 9 11 9 20a9 9 0 0 1-18 0c0-5 3-8 5-11 1 3 2 5 4 5-1-5-1-10 0-14z" fill="#8A2538"/>
+  <path d="M34 94h52" stroke="#C9A24B" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

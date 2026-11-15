@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "title": "Beautiful QR menus you update yourself",
+    "description": "Give your restaurant or café a fast, beautiful digital menu in Arabic and English. Change prices and photos from your phone, print the QR code, done."
+  },
+  "nav": {
+    "demos": "Live demos",
+    "features": "Features",
+    "how": "How it works",
+    "faq": "FAQ",
+    "login": "Log in",
+    "switchTo": "العربية",
+    "switchLabel": "Switch to Arabic",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "homeLabel": "Home"
+  },
+  "hero": {
+    "eyebrow": "Digital menus for restaurants and cafés",
+    "titleStart": "A QR menu your guests will love.",
+    "titleAccent": "Updated by you, in seconds.",
+    "subtitle": "Beautiful, fast and bilingual. Change a price, swap a photo or mark a dish sold out from your phone, and every table sees it instantly. No app to install, no reprinting.",
+    "ctaDemos": "See live demos",
+    "ctaWhatsapp": "Contact us on WhatsApp",
+    "points": ["Arabic and English", "Dark mode", "Ready in a day"]
+  },
+  "mock": {
+    "restaurant": "Café Layali",
+    "search": "Search the menu",
+    "currency": "SAR",
+    "categories": ["Coffee", "Bakery", "Desserts"],
+    "items": [
+      { "name": "Spanish latte", "desc": "Espresso, milk, condensed cream", "price": "18", "newPrice": "18" },
+      { "name": "Almond croissant", "desc": "Baked fresh every morning", "price": "14", "newPrice": "16" },
+      { "name": "Pistachio cake", "desc": "Soft layers, pistachio cream", "price": "24", "newPrice": "24" }
+    ],
+    "updated": "Price updated",
+    "dashboardTitle": "Dashboard",
+    "dashboardField": "Almond croissant",
+    "dashboardSave": "Save",
+    "qrLabel": "Scan to view the menu"
+  },
+  "demos": {
+    "eyebrow": "Try it now",
+    "title": "Open a real menu on your phone",
+    "subtitle": "These are live demo menus, exactly what your guests would see after scanning your QR code.",
+    "open": "Open demo",
+    "items": [
+      { "slug": "demo-cafe", "name": "Café", "tag": "Coffee and desserts", "desc": "Warm, relaxed, photo-first menu." },
+      { "slug": "demo-bistro", "name": "Bistro", "tag": "Fine dining", "desc": "Elegant, calm and refined." },
+      { "slug": "demo-burger", "name": "Burger", "tag": "Fast and casual", "desc": "Bold, punchy and playful." }
+    ]
+  },
+  "features": {
+    "eyebrow": "Everything included",
+    "title": "Everything a modern menu needs",
+    "subtitle": "Built for owners who are busy running a restaurant, not learning software.",
+    "items": [
+      { "icon": "zap", "title": "Instant price updates", "desc": "Edit prices, offers and availability from your dashboard. Guests see the change the moment you save." },
+      { "icon": "image", "title": "Photos that sell", "desc": "Upload dish photos from your phone. They are optimized automatically so the menu stays fast." },
+      { "icon": "languages", "title": "Arabic and English", "desc": "A true right-to-left Arabic experience and a clean English one, one tap apart." },
+      { "icon": "moon", "title": "Light and dark mode", "desc": "Guests read comfortably in any light, and the menu follows your brand colors." },
+      { "icon": "qr", "title": "Print-ready QR codes", "desc": "Download your QR code for tables, windows and flyers. It never changes, even when your menu does." },
+      { "icon": "smartphone", "title": "Works on any phone", "desc": "No app, no sign-up for guests. Just scan and browse, even on a slow connection." },
+      { "icon": "globe", "title": "Your own address", "desc": "Use a subdomain like yourplace.example.com or connect your own domain." },
+      { "icon": "scan", "title": "Nothing to install", "desc": "You manage everything from the browser, on a phone, tablet or computer." }
+    ]
+  },
+  "how": {
+    "eyebrow": "Simple by design",
+    "title": "Live in three steps",
+    "steps": [
+      { "title": "We build your menu", "desc": "Send us your dishes and prices. We set up your menu, your colors and your address." },
+      { "title": "You stay in control", "desc": "Log in and edit anything whenever you like: prices, photos, offers, opening hours." },
+      { "title": "Print the QR, welcome guests", "desc": "Place the QR code on your tables. Guests scan and see the latest menu, always." }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Pricing",
+    "title": "A plan that fits your place",
+    "subtitle": "Every restaurant is different, so we keep it simple: tell us about yours and we will send a clear offer.",
+    "cardTitle": "Your menu, fully managed",
+    "cardNote": "No hidden fees. No long contracts.",
+    "includes": ["Custom-designed menu", "Owner dashboard", "QR codes ready to print", "Arabic and English", "Friendly support"],
+    "cta": "Contact us for pricing"
+  },
+  "faq": {
+    "eyebrow": "Questions",
+    "title": "Good to know",
+    "items": [
+      { "q": "Do my guests need to install an app?", "a": "No. They scan the QR code with their phone camera and the menu opens in the browser." },
+      { "q": "How fast do changes appear?", "a": "Within seconds. When you save a change in the dashboard, the next guest who opens the menu sees it." },
+      { "q": "Can I edit the menu myself?", "a": "Yes, that is the point. You get a simple dashboard for categories, dishes, photos, prices, sizes, offers and sold-out items. We are always here if you need a hand." },
+      { "q": "Is the menu in Arabic and English?", "a": "Both. You write each dish in both languages and guests switch with one tap. Arabic is fully right-to-left." },
+      { "q": "Can I use my own domain?", "a": "Yes. You can use a subdomain of ours or connect your own domain name." },
+      { "q": "If I change the menu, do I reprint the QR?", "a": "Never. The QR code always points to your live menu, so you print it once." }
+    ]
+  },
+  "cta": {
+    "title": "Ready to retire the paper menu?",
+    "subtitle": "Tell us about your place and we will have a demo menu ready for you.",
+    "whatsapp": "Chat on WhatsApp",
+    "demos": "See live demos"
+  },
+  "contact": {
+    "whatsappText": "Hi! I would like a digital QR menu for my restaurant."
+  },
+  "footer": {
+    "tagline": "Beautiful QR menus for restaurants and cafés.",
+    "login": "Owner login",
+    "rights": "All rights reserved."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "The page you are looking for does not exist or has moved.",
+    "home": "Go to home"
+  }
+}

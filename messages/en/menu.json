@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "menu": "Menu",
+    "description": "Browse the {restaurant} menu: dishes, prices and today's offers.",
+    "itemDescription": "{item} at {restaurant}."
+  },
+  "a11y": {
+    "skipToMenu": "Skip to the menu",
+    "loading": "Loading the menu"
+  },
+  "header": {
+    "search": "Search the menu",
+    "switchLanguage": "عربي",
+    "switchLanguageLabel": "Switch to Arabic",
+    "themeToDark": "Switch to dark mode",
+    "themeToLight": "Switch to light mode",
+    "currencyLabel": "Show prices in {code}",
+    "toTop": "Back to top"
+  },
+  "hero": {
+    "openNow": "Open now",
+    "closedNow": "Closed now",
+    "closesAt": "until {time}",
+    "opensAt": "opens at {time}",
+    "opensOn": "opens {day} {time}",
+    "open24": "Open 24 hours",
+    "whatsapp": "WhatsApp",
+    "call": "Call",
+    "map": "Directions",
+    "instagram": "Instagram",
+    "share": "Share",
+    "shareText": "Take a look at the menu of {name}",
+    "linkCopied": "Link copied to clipboard",
+    "explore": "Explore the menu"
+  },
+  "categories": {
+    "title": "What are you craving?",
+    "nav": "Menu categories",
+    "count": "{n} items",
+    "countOne": "1 item",
+    "swipeHint": "Swipe sideways to change category"
+  },
+  "featured": {
+    "eyebrow": "Handpicked",
+    "title": "Chef's picks & offers",
+    "prev": "Previous",
+    "next": "Next",
+    "goTo": "Show slide {n}"
+  },
+  "filters": {
+    "label": "Filter dishes",
+    "offers": "Offers",
+    "new": "New",
+    "popular": "Popular",
+    "spicy": "Spicy",
+    "vegetarian": "Vegetarian",
+    "availableOnly": "Available only",
+    "sort": "Sort",
+    "sortLabel": "Sort dishes",
+    "recommended": "Recommended",
+    "priceAsc": "Price: low to high",
+    "priceDesc": "Price: high to low",
+    "results": "{n} dishes",
+    "resultsOne": "1 dish",
+    "clear": "Clear all",
+    "emptyTitle": "Nothing on the plate",
+    "emptyBody": "No dish matches these filters. Remove one and try again.",
+    "soonTitle": "Menu coming soon",
+    "soonBody": "The kitchen is still preparing this menu. Please check back shortly.",
+    "view": "Layout",
+    "grid": "Grid view",
+    "list": "List view"
+  },
+  "item": {
+    "from": "from",
+    "soldOut": "Sold out",
+    "offer": "Offer",
+    "off": "-{n}%",
+    "kcal": "{n} kcal",
+    "size": "Choose a size",
+    "share": "Share",
+    "similar": "You may also like",
+    "close": "Close",
+    "backToMenu": "Back to menu",
+    "open": "View {name}",
+    "unavailable": "This dish isn't available right now.",
+    "linkCopied": "Link copied to clipboard"
+  },
+  "tags": {
+    "new": "New",
+    "popular": "Popular",
+    "spicy": "Spicy",
+    "vegetarian": "Vegetarian",
+    "vegan": "Vegan",
+    "gluten_free": "Gluten-free",
+    "chef_pick": "Chef's pick"
+  },
+  "search": {
+    "label": "Search",
+    "placeholder": "Search dishes and drinks…",
+    "close": "Close search",
+    "clear": "Clear search",
+    "results": "{n} results",
+    "resultsOne": "1 result",
+    "none": "Nothing found for “{q}”",
+    "noneHint": "Try a shorter word, or search in the other language.",
+    "recent": "Recently viewed",
+    "suggested": "You might like"
+  },
+  "footer": {
+    "visit": "Visit us",
+    "hours": "Opening hours",
+    "today": "Today",
+    "closed": "Closed",
+    "contact": "Get in touch",
+    "follow": "Follow us",
+    "poweredBy": "Powered by {platform}",
+    "days": {
+      "sat": "Saturday",
+      "sun": "Sunday",
+      "mon": "Monday",
+      "tue": "Tuesday",
+      "wed": "Wednesday",
+      "thu": "Thursday",
+      "fri": "Friday"
+    }
+  },
+  "notFound": {
+    "title": "This menu has left the kitchen",
+    "body": "We couldn't find the menu or dish you're looking for. The link may be old, or the restaurant may have moved.",
+    "home": "Go to the homepage"
+  },
+  "error": {
+    "title": "This page could not be loaded",
+    "body": "A temporary problem occurred. Please try again in a moment.",
+    "retry": "Try again"
+  }
+}

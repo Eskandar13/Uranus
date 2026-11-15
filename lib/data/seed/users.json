@@ -1,0 +1,14 @@
+{
+  "users": [
+    { "id": "00000000-0000-4000-8000-00000000a001", "email": "admin@demo.test", "password": "admin-demo-2026", "displayName": "Platform Admin" },
+    { "id": "00000000-0000-4000-8000-00000000a002", "email": "owner@demo-cafe.test", "password": "cafe-demo-2026", "displayName": "Yasmin Café Owner" },
+    { "id": "00000000-0000-4000-8000-00000000a003", "email": "owner@demo-bistro.test", "password": "bistro-demo-2026", "displayName": "Jamr Owner" },
+    { "id": "00000000-0000-4000-8000-00000000a004", "email": "owner@demo-burger.test", "password": "burger-demo-2026", "displayName": "Haara Burger Owner" }
+  ],
+  "memberships": [
+    { "userId": "00000000-0000-4000-8000-00000000a002", "restaurantId": "10000000-0000-4000-8000-000000000001", "role": "owner" },
+    { "userId": "00000000-0000-4000-8000-00000000a003", "restaurantId": "20000000-0000-4000-8000-000000000001", "role": "owner" },
+    { "userId": "00000000-0000-4000-8000-00000000a004", "restaurantId": "30000000-0000-4000-8000-000000000001", "role": "owner" }
+  ],
+  "platformAdminIds": ["00000000-0000-4000-8000-00000000a001"]
+}

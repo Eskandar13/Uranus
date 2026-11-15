@@ -1,0 +1,1733 @@
+{
+  "restaurant": {
+    "id": "10000000-0000-4000-8000-000000000001",
+    "slug": "demo-cafe",
+    "customDomain": null,
+    "name": {
+      "ar": "مقهى ياسمين",
+      "en": "Yasmin Café & Bakery"
+    },
+    "tagline": {
+      "ar": "قهوة مختصة ومخبوزات طازجة بعطر الياسمين",
+      "en": "Specialty coffee and fresh bakes, scented with jasmine"
+    },
+    "description": {
+      "ar": "في قلب دمشق القديمة نحمّص حبوبنا بأنفسنا ونخبز كل صباح كرواسان وخبزاً وحلويات بالزبدة الطبيعية. ركن هادئ للقهوة والفطور واللقاءات الطويلة.",
+      "en": "In the heart of old Damascus we roast our own beans and bake croissants, bread and pastries every morning with real butter. A calm corner for coffee, brunch and long conversations."
+    },
+    "logoUrl": "/demo/demo-cafe-logo.svg",
+    "coverUrl": "https://images.unsplash.com/photo-1453614512568-c4024d13c247?auto=format&fit=crop&w=1600&q=80",
+    "coverBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAJABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAgME/8QAFAEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAAWcTH/8QAHRAAAQQCAwAAAAAAAAAAAAAAAgABAxEEFCEzcv/aAAgBAQABPwCbIHbMg5FhUmcxPVFSfsD06mX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oACAECAQE/AH//xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oACAEDAQE/AH//2Q==",
+    "theme": {
+      "template": "aurora",
+      "primary": "#B8532A",
+      "accent": "#2F6F5E",
+      "mode": "light",
+      "font": "readex",
+      "radius": "round"
+    },
+    "currency": "USD",
+    "secondaryCurrency": "SYP",
+    "exchangeRate": 122,
+    "contact": {
+      "whatsapp": "963900000101",
+      "phone": "963900000101",
+      "email": "hello@demo-cafe.test",
+      "address": {
+        "ar": "شارع الياسمين، باب توما، دمشق",
+        "en": "Jasmine Street, Bab Touma, Damascus"
+      },
+      "mapsUrl": "https://maps.google.com/?q=Damascus",
+      "instagram": "https://www.instagram.com/",
+      "facebook": "https://www.facebook.com/",
+      "tiktok": null,
+      "website": null
+    },
+    "openingHours": {
+      "sat": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "sun": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "mon": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "tue": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "wed": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "thu": {
+        "open": "07:00",
+        "close": "23:00"
+      },
+      "fri": {
+        "open": "07:00",
+        "close": "23:00"
+      }
+    },
+    "timezone": "Asia/Damascus",
+    "isActive": true,
+    "plan": "pro",
+    "createdAt": "2026-11-10T00:00:00.000Z",
+    "updatedAt": "2026-11-10T00:00:00.000Z"
+  },
+  "categories": [
+    {
+      "id": "10000000-0000-4000-8000-000000001100",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "name": {
+        "ar": "مشروبات الإسبريسو",
+        "en": "Espresso Drinks"
+      },
+      "description": {
+        "ar": "قهوة مختصة محمّصة طازجة كل صباح",
+        "en": "Specialty coffee roasted fresh every morning"
+      },
+      "imageUrl": "https://images.unsplash.com/photo-1507133750040-4a8f57021571?auto=format&fit=crop&w=900&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAYABADASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDBAb/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAOafasQiDP8A/8QAIRAAAgIBAgcAAAAAAAAAAAAAAQIAEQMEEiEiMTJBUYH/2gAIAQEAAT8AxqG3X8gQkEAGx1mhSia7901TbMzM6c3oTEGBtXrhCzOzMSSfNz//xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAgEBPwCn/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAES/9oACAEDAQE/AMpX/9k=",
+      "icon": "coffee",
+      "sortOrder": 0,
+      "isVisible": true
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000001101",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "name": {
+        "ar": "مشروبات باردة",
+        "en": "Cold Drinks"
+      },
+      "description": {
+        "ar": "منعشة ومثلّجة لأيام الصيف",
+        "en": "Chilled and refreshing for warm days"
+      },
+      "imageUrl": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=900&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAKABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAMF/8QAFAEBAAAAAAAAAAAAAAAAAAAABP/aAAwDAQACEAMQAAAARPLIRv8A/8QAHhAAAQQCAwEAAAAAAAAAAAAAAgABAxIEESEiUpH/2gAIAQEAAT8AgmkKKNxoNn1Wqyco+Y6222n6IiLjs6OST2X1f//EABURAQEAAAAAAAAAAAAAAAAAAAAC/9oACAECAQE/AIf/xAAWEQADAAAAAAAAAAAAAAAAAAAAAQL/2gAIAQMBAT8AcH//2Q==",
+      "icon": "cup-soda",
+      "sortOrder": 1,
+      "isVisible": true
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000001102",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "name": {
+        "ar": "الشاي والأعشاب",
+        "en": "Tea & Infusions"
+      },
+      "description": {
+        "ar": "أوراق منتقاة وأعشاب دافئة تريح الروح",
+        "en": "Hand-picked leaves and warm herbs to calm the soul"
+      },
+      "imageUrl": "https://images.unsplash.com/photo-1563822249548-9a72b6353cd1?auto=format&fit=crop&w=900&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAYABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAECBP/EABQBAQAAAAAAAAAAAAAAAAAAAAL/2gAMAwEAAhADEAAAANWGmFSBn//EAB8QAAEEAgIDAAAAAAAAAAAAAAEAAgMREiETYQRBsf/aAAgBAQABPwCtHoelUnM8EUuRkZJc442o/IEj8Aw/VMxs5IsDd2oxgzTurX//xAAXEQEBAQEAAAAAAAAAAAAAAAABABGh/9oACAECAQE/ABe2X//EABYRAAMAAAAAAAAAAAAAAAAAAAEQEf/aAAgBAwEBPwCBf//Z",
+      "icon": "leaf",
+      "sortOrder": 2,
+      "isVisible": true
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000001103",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "name": {
+        "ar": "الإفطار",
+        "en": "Breakfast"
+      },
+      "description": {
+        "ar": "فطور طازج يُقدَّم حتى الظهيرة",
+        "en": "Fresh plates served until noon"
+      },
+      "imageUrl": "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?auto=format&fit=crop&w=900&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAID/8QAFAEBAAAAAAAAAAAAAAAAAAAAA//aAAwDAQACEAMQAAAAdO5TX//EAB4QAAIBBQADAAAAAAAAAAAAAAECAwAREhMhQlGx/9oACAEBAAE/ABGyLg0wZrcFSAuJVLePq1QnJyCBy4HK3Sag2Zvz7X//xAAVEQEBAAAAAAAAAAAAAAAAAAAAMf/aAAgBAgEBPwCP/8QAFREBAQAAAAAAAAAAAAAAAAAAADH/2gAIAQMBAT8Ar//Z",
+      "icon": "egg-fried",
+      "sortOrder": 3,
+      "isVisible": true
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000001104",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "name": {
+        "ar": "المخبوزات والحلويات",
+        "en": "Bakery & Desserts"
+      },
+      "description": {
+        "ar": "تُخبز طازجة كل يوم في مخبزنا",
+        "en": "Baked fresh every day in our own bakery"
+      },
+      "imageUrl": "https://images.unsplash.com/photo-1608198093002-ad4e005484ec?auto=format&fit=crop&w=900&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAJABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAID/8QAFAEBAAAAAAAAAAAAAAAAAAAABP/aAAwDAQACEAMQAAAA2LCSr//EACAQAAEDAwUBAAAAAAAAAAAAAAMAAQIEERITITRRcsP/2gAIAQEAAT8AnAeL6kMtr3ZFhmExBjZrN0qz5yVLx6jxFf/EABYRAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAgBAgEBPwANS//EABYRAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAgBAwEBPwBcG//Z",
+      "icon": "croissant",
+      "sortOrder": 4,
+      "isVisible": true
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000001105",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "name": {
+        "ar": "العصائر الطازجة",
+        "en": "Fresh Juices"
+      },
+      "description": {
+        "ar": "فواكه موسمية تُعصر عند الطلب",
+        "en": "Seasonal fruit pressed to order"
+      },
+      "imageUrl": "https://images.unsplash.com/photo-1613478223719-2ab802602423?auto=format&fit=crop&w=900&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAMABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAgEF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAwT/2gAMAwEAAhADEAAAAMhCzN//xAAdEAACAgIDAQAAAAAAAAAAAAABAwACBDEFERIh/9oACAEBAAE/AE8Wxg9WZUVj8HHX15efo0RBrUuexP/EABkRAAEFAAAAAAAAAAAAAAAAAAEAAxIhMv/aAAgBAgEBPwAlyW6X/8QAFxEAAwEAAAAAAAAAAAAAAAAAABEiMf/aAAgBAwEBPwCVh//Z",
+      "icon": "citrus",
+      "sortOrder": 5,
+      "isVisible": true
+    }
+  ],
+  "items": [
+    {
+      "id": "10000000-0000-4000-8000-000000003000",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001100",
+      "slug": "espresso",
+      "name": {
+        "ar": "إسبريسو",
+        "en": "Espresso"
+      },
+      "description": {
+        "ar": "جرعة مركّزة من حبوب محمّصة طازجة بقوام كريمي وكريما ذهبية.",
+        "en": "A concentrated shot of freshly roasted beans with a golden, velvety crema."
+      },
+      "price": 2,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAEF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAAzhQx/8QAHhAAAgICAgMAAAAAAAAAAAAAAgMAAQQRIVESEyL/2gAIAQEAAT8AxkKsPohHfczkLSdeDKOOYYpWNFwVczd+vXVz/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAgEBPwB//8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAwEBPwB//9k=",
+      "options": [
+        {
+          "id": "opt-1-1",
+          "name": {
+            "ar": "سنغل",
+            "en": "Single"
+          },
+          "price": 2
+        },
+        {
+          "id": "opt-1-2",
+          "name": {
+            "ar": "دبل",
+            "en": "Double"
+          },
+          "price": 3
+        }
+      ],
+      "tags": [
+        "popular"
+      ],
+      "calories": 5,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 0,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000003001",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001100",
+      "slug": "americano",
+      "name": {
+        "ar": "أمريكانو",
+        "en": "Americano"
+      },
+      "description": {
+        "ar": "إسبريسو مُطوَّل بالماء الساخن لفنجان صافٍ وخفيف.",
+        "en": "Espresso lengthened with hot water for a clean, smooth cup."
+      },
+      "price": 2.5,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1504630083234-14187a9df0f5?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAwEF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAAUMWn/8QAHRAAAwACAgMAAAAAAAAAAAAAAQIDAAURYQQSIv/aAAgBAQABPwDXutfHAC8ODwc2svSami4trR+p0ZT0ctatlDUdmPef/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAgEBPwB//8QAFhEAAwAAAAAAAAAAAAAAAAAAACEx/9oACAEDAQE/AKz/2Q==",
+      "options": [
+        {
+          "id": "opt-2-1",
+          "name": {
+            "ar": "صغير",
+            "en": "Small"
+          },
+          "price": 2.5
+        },
+        {
+          "id": "opt-2-2",
+          "name": {
+            "ar": "وسط",
+            "en": "Medium"
+          },
+          "price": 3
+        },
+        {
+          "id": "opt-2-3",
+          "name": {
+            "ar": "كبير",
+            "en": "Large"
+          },
+          "price": 3.5
+        }
+      ],
+      "tags": [],
+      "calories": 10,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 1,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000003002",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001100",
+      "slug": "cortado",
+      "name": {
+        "ar": "كورتادو",
+        "en": "Cortado"
+      },
+      "description": {
+        "ar": "إسبريسو مع قليل من الحليب الدافئ لتوازن مثالي بين القوة والنعومة.",
+        "en": "Espresso cut with a splash of warm milk for a perfectly balanced sip."
+      },
+      "price": 3,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1485808191679-5f86510681a2?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAYABADASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMFAgT/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAAAjLsphxzBR//EACAQAAIBBAIDAQAAAAAAAAAAAAECBAADERITIQUUMWH/2gAIAQEAAT8AVlsLqy5amuC6QMEGocD2js+KnwraEtZwhUdrUbyfAuGTP6DUicH24rWhb6x7Nf/EABgRAQEAAwAAAAAAAAAAAAAAAAEAERJB/9oACAECAQE/ADbpC4v/xAAZEQADAAMAAAAAAAAAAAAAAAAAARECEiH/2gAIAQMBAT8Ael4x4q0//9k=",
+      "options": [],
+      "tags": [],
+      "calories": 45,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 2,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000003003",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001100",
+      "slug": "cappuccino",
+      "name": {
+        "ar": "كابتشينو",
+        "en": "Cappuccino"
+      },
+      "description": {
+        "ar": "رغوة حليب حريرية فوق إسبريسو مزدوج، ورشّة كاكاو.",
+        "en": "Silky milk foam over a double espresso, dusted with cocoa."
+      },
+      "price": 3.2,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1517256064527-09c73fc73e38?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAYABADASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAA46K9rUsI/8QAHxAAAgIDAAIDAAAAAAAAAAAAAQMCBAAREgUiQlKC/9oACAEBAAE/AO5rtNK9dfH9YxbowAkvkRyvSbZYyPYgIaEsu1TWXDchLo63iLyUQC2E/bsDL3kUNRNS/frP/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAECESL/2gAIAQIBAT8AVEXlH//EABkRAAIDAQAAAAAAAAAAAAAAAAABAhEhMv/aAAgBAwEBPwB3hLpn/9k=",
+      "options": [
+        {
+          "id": "opt-4-1",
+          "name": {
+            "ar": "صغير",
+            "en": "Small"
+          },
+          "price": 3.2
+        },
+        {
+          "id": "opt-4-2",
+          "name": {
+            "ar": "وسط",
+            "en": "Medium"
+          },
+          "price": 3.8
+        },
+        {
+          "id": "opt-4-3",
+          "name": {
+            "ar": "كبير",
+            "en": "Large"
+          },
+          "price": 4.4
+        }
+      ],
+      "tags": [
+        "popular"
+      ],
+      "calories": 120,
+      "isAvailable": true,
+      "isFeatured": true,
+      "sortOrder": 3,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000003004",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001100",
+      "slug": "flat-white",
+      "name": {
+        "ar": "فلات وايت",
+        "en": "Flat White"
+      },
+      "description": {
+        "ar": "قهوة مخملية بحليب مبخّر ناعم وقوام كثيف.",
+        "en": "Velvety microfoam poured over a ristretto double shot."
+      },
+      "price": 3.8,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1572286258217-40142c1c6a70?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAUABADASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIEAQb/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAA6PJlWxQT/8QAHBAAAwADAQEBAAAAAAAAAAAAAQIRAAMSBBBC/9oACAEBAAE/AHdNa9OQBgdHXpCCM9ettirB1CatlueXWyIxZeb+bYB8Of/EABURAQEAAAAAAAAAAAAAAAAAABBB/9oACAECAQE/AKf/xAAVEQEBAAAAAAAAAAAAAAAAAAAQQf/aAAgBAwEBPwCH/9k=",
+      "options": [],
+      "tags": [
+        "chef_pick"
+      ],
+      "calories": 110,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 4,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000003005",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001100",
+      "slug": "latte",
+      "name": {
+        "ar": "كافيه لاتيه",
+        "en": "Caffè Latte"
+      },
+      "description": {
+        "ar": "حليب مبخّر كريمي فوق إسبريسو، مع رسمة لاتيه من صنع الباريستا.",
+        "en": "Creamy steamed milk over espresso, topped with barista latte art."
+      },
+      "price": 3.6,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAJABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAMF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAv/aAAwDAQACEAMQAAAARmCuH//EACEQAAAFAgcAAAAAAAAAAAAAAAABAgMFERIhIjM0QXKC/9oACAEBAAE/AGG413MwlJEJW29NOcRHbvyJDWb6D//EABYRAQEBAAAAAAAAAAAAAAAAABEAIv/aAAgBAgEBPwB0X//EABcRAQADAAAAAAAAAAAAAAAAAAEAESL/2gAIAQMBAT8ADNz/2Q==",
+      "options": [
+        {
+          "id": "opt-6-1",
+          "name": {
+            "ar": "صغير",
+            "en": "Small"
+          },
+          "price": 3.6
+        },
+        {
+          "id": "opt-6-2",
+          "name": {
+            "ar": "وسط",
+            "en": "Medium"
+          },
+          "price": 4.2
+        },
+        {
+          "id": "opt-6-3",
+          "name": {
+            "ar": "كبير",
+            "en": "Large"
+          },
+          "price": 4.8
+        }
+      ],
+      "tags": [],
+      "calories": 150,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 5,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000003006",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001100",
+      "slug": "spanish-latte",
+      "name": {
+        "ar": "سبانش لاتيه",
+        "en": "Spanish Latte"
+      },
+      "description": {
+        "ar": "لاتيه حلو بالحليب المكثّف المحلّى، المفضّل لدى زبائننا.",
+        "en": "A sweet latte made with condensed milk, our guests' all-time favourite."
+      },
+      "price": 4.2,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAYABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMGBP/EABYBAQEBAAAAAAAAAAAAAAAAAAECA//aAAwDAQACEAMQAAAAlaNzc70zwD//xAAjEAACAQMDBAMAAAAAAAAAAAABAgMABBIFERQTISIxJGFi/9oACAEBAAE/AK0OZCJYnH7ShptrPt8cxn6auH0rnJNo4osWwX2xoTLx38wDj7J2qW6mV0Vbhe7dwvkBX//EABoRAAICAwAAAAAAAAAAAAAAAAACASEDEiL/2gAIAQIBAT8A3Vosx9JcH//EABgRAQEAAwAAAAAAAAAAAAAAAAIAARIh/9oACAEDAQE/ANUcz4r/2Q==",
+      "options": [
+        {
+          "id": "opt-7-1",
+          "name": {
+            "ar": "وسط",
+            "en": "Medium"
+          },
+          "price": 4.2
+        },
+        {
+          "id": "opt-7-2",
+          "name": {
+            "ar": "كبير",
+            "en": "Large"
+          },
+          "price": 4.9
+        }
+      ],
+      "tags": [
+        "popular",
+        "new"
+      ],
+      "calories": 210,
+      "isAvailable": true,
+      "isFeatured": true,
+      "sortOrder": 6,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000003007",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001100",
+      "slug": "mocha",
+      "name": {
+        "ar": "موكا",
+        "en": "Mocha"
+      },
+      "description": {
+        "ar": "إسبريسو وشوكولاتة داكنة وحليب مبخّر بلمسة كريمة.",
+        "en": "Espresso, dark chocolate and steamed milk finished with whipped cream."
+      },
+      "price": 4,
+      "oldPrice": 4.6,
+      "imageUrl": "https://images.unsplash.com/photo-1495774856032-8b90bbb32b32?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAID/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAMhWaX//xAAeEAADAAIBBQAAAAAAAAAAAAABAgMAEQQSISJBUf/aAAgBAQABPwCvBhWu4MVQ+1y8U40yg8nfsxPzL1okto5GBmbrZiSd62c//8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAgEBPwB//8QAGBEAAgMAAAAAAAAAAAAAAAAAAAERIVH/2gAIAQMBAT8AlZZ//9k=",
+      "options": [],
+      "tags": [],
+      "calories": 240,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 7,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000003008",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001100",
+      "slug": "matcha-latte",
+      "name": {
+        "ar": "ماتشا لاتيه",
+        "en": "Matcha Latte"
+      },
+      "description": {
+        "ar": "ماتشا يابانية فاخرة مخفوقة مع حليب مخملي.",
+        "en": "Ceremonial-grade Japanese matcha whisked with velvety milk."
+      },
+      "price": 4.8,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1515823064-d6e0c04616a7?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDBP/EABQBAQAAAAAAAAAAAAAAAAAAAAL/2gAMAwEAAhADEAAAAM8WA//EACEQAAIBBAAHAAAAAAAAAAAAAAECAAMEBRIREyEiI0FS/9oACAEBAAE/AMWV08lTt9D5mQtRSXmoSQWlgivbhmHE7ETIsRQQA9C5E//EABYRAAMAAAAAAAAAAAAAAAAAAAABMv/aAAgBAgEBPwB2f//EABYRAQEBAAAAAAAAAAAAAAAAAAEAIf/aAAgBAwEBPwAMv//Z",
+      "options": [],
+      "tags": [
+        "new",
+        "vegetarian"
+      ],
+      "calories": 130,
+      "isAvailable": false,
+      "isFeatured": false,
+      "sortOrder": 8,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000003009",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001101",
+      "slug": "iced-latte",
+      "name": {
+        "ar": "آيس لاتيه",
+        "en": "Iced Latte"
+      },
+      "description": {
+        "ar": "إسبريسو بارد مع حليب وثلج، ناعم ومنعش.",
+        "en": "Cold espresso poured over milk and ice, smooth and refreshing."
+      },
+      "price": 3.4,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAYABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EABYBAQEBAAAAAAAAAAAAAAAAAAQCA//aAAwDAQACEAMQAAAAkajYOjCtC8//xAAgEAACAQQBBQAAAAAAAAAAAAABAgMABBESBRQhIkJx/9oACAEBAAE/AIIBoXPqakLKgZV7Uu/UjVsBlGanjxbpv8q2uo4psyDxq55JZgqKhCV//8QAFhEBAQEAAAAAAAAAAAAAAAAAAQBR/9oACAECAQE/AEnL/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQBR/9oACAEDAQE/ABjb/9k=",
+      "options": [
+        {
+          "id": "opt-10-1",
+          "name": {
+            "ar": "صغير",
+            "en": "Small"
+          },
+          "price": 3.4
+        },
+        {
+          "id": "opt-10-2",
+          "name": {
+            "ar": "وسط",
+            "en": "Medium"
+          },
+          "price": 3.9
+        },
+        {
+          "id": "opt-10-3",
+          "name": {
+            "ar": "كبير",
+            "en": "Large"
+          },
+          "price": 4.4
+        }
+      ],
+      "tags": [
+        "popular"
+      ],
+      "calories": 110,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 0,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-00000000300a",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001101",
+      "slug": "cold-brew",
+      "name": {
+        "ar": "كولد برو",
+        "en": "Cold Brew"
+      },
+      "description": {
+        "ar": "قهوة منقوعة على البارد لمدة ١٨ ساعة، ناعمة وقليلة الحموضة.",
+        "en": "Steeped cold for 18 hours: smooth, low-acid and naturally sweet."
+      },
+      "price": 4,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABQED/8QAFAEBAAAAAAAAAAAAAAAAAAAAA//aAAwDAQACEAMQAAAA1IVhp//EAB0QAAICAwADAAAAAAAAAAAAAAECAAMREiETYWL/2gAIAQEAAT8Ao8KZpsAJYt9CWvSGRqqX04TsoJBgRNgce4/R2f/EABURAQEAAAAAAAAAAAAAAAAAAABB/9oACAECAQE/AK//xAAVEQEBAAAAAAAAAAAAAAAAAAAAQf/aAAgBAwEBPwCP/9k=",
+      "options": [
+        {
+          "id": "opt-11-1",
+          "name": {
+            "ar": "وسط",
+            "en": "Medium"
+          },
+          "price": 4
+        },
+        {
+          "id": "opt-11-2",
+          "name": {
+            "ar": "كبير",
+            "en": "Large"
+          },
+          "price": 4.8
+        }
+      ],
+      "tags": [
+        "popular"
+      ],
+      "calories": 15,
+      "isAvailable": true,
+      "isFeatured": true,
+      "sortOrder": 1,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-00000000300b",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001101",
+      "slug": "caramel-macchiato",
+      "name": {
+        "ar": "آيس كراميل ماكياتو",
+        "en": "Iced Caramel Macchiato"
+      },
+      "description": {
+        "ar": "طبقات من الحليب والإسبريسو مع صلصة كراميل محلية الصنع.",
+        "en": "Layers of milk and espresso drizzled with our house caramel sauce."
+      },
+      "price": 4.5,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAYABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAUA/8QAFAEBAAAAAAAAAAAAAAAAAAAAA//aAAwDAQACEAMQAAAAbHrSzRQdjX//xAAhEAADAAIBAwUAAAAAAAAAAAABAgMAEQQSISIFIzFBcf/aAAgBAQABPwCvsiDAkBz0vnqAojmKuxBYfeJSlHGmPiD2zkilSyVovz+Y56Z+O+5zkyUVoQTsaOf/xAAWEQADAAAAAAAAAAAAAAAAAAABEBL/2gAIAQIBAT8AoL//xAAWEQADAAAAAAAAAAAAAAAAAAABEBL/2gAIAQMBAT8Agr//2Q==",
+      "options": [],
+      "tags": [
+        "new"
+      ],
+      "calories": 230,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 2,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-00000000300c",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001101",
+      "slug": "peach-iced-tea",
+      "name": {
+        "ar": "شاي مثلّج بالخوخ",
+        "en": "Peach Iced Tea"
+      },
+      "description": {
+        "ar": "شاي أسود بارد بنكهة الخوخ مع شرائح ليمون ونعناع.",
+        "en": "Chilled black tea with peach, lemon slices and fresh mint."
+      },
+      "price": 3.2,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAUABADASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAIBAwQG/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgH/2gAMAwEAAhADEAAAAOaTbBSVAp//xAAeEAACAgICAwAAAAAAAAAAAAABAgMSABEEITEygf/aAAgBAQABPwCKB5rU11jxumg6kZx4DVpLHY9QM5KSGrMp1r4MEjparaxnc+XOf//EABgRAAIDAAAAAAAAAAAAAAAAAAAREiJB/9oACAECAQE/AJWRp//EABcRAAMBAAAAAAAAAAAAAAAAABAREiL/2gAIAQMBAT8AnLH/2Q==",
+      "options": [
+        {
+          "id": "opt-13-1",
+          "name": {
+            "ar": "وسط",
+            "en": "Medium"
+          },
+          "price": 3.2
+        },
+        {
+          "id": "opt-13-2",
+          "name": {
+            "ar": "كبير",
+            "en": "Large"
+          },
+          "price": 3.9
+        }
+      ],
+      "tags": [
+        "vegan"
+      ],
+      "calories": 80,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 3,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-00000000300d",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001101",
+      "slug": "mint-lemonade",
+      "name": {
+        "ar": "ليموناضة بالنعناع",
+        "en": "Mint Lemonade"
+      },
+      "description": {
+        "ar": "عصير ليمون طازج مع نعناع مهروس وقليل من السكر.",
+        "en": "Fresh-squeezed lemon with muddled mint and just a touch of sugar."
+      },
+      "price": 3,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1556881286-fc6915169721?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAYABADASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEDAgX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAv/aAAwDAQACEAMQAAAA7zw5TqFP/8QAHxAAAgICAQUAAAAAAAAAAAAAAQIAAxESIQQjMUFh/9oACAEBAAE/AC6j3NhLu6uK7FDA+cZlIapDu233Ep6NKNyhOWhrJ5J5n//EABkRAAIDAQAAAAAAAAAAAAAAAAABERJBUf/aAAgBAgEBPwCXaMKrh//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8AP//Z",
+      "options": [
+        {
+          "id": "opt-14-1",
+          "name": {
+            "ar": "وسط",
+            "en": "Medium"
+          },
+          "price": 3
+        },
+        {
+          "id": "opt-14-2",
+          "name": {
+            "ar": "كبير",
+            "en": "Large"
+          },
+          "price": 3.8
+        }
+      ],
+      "tags": [
+        "vegan",
+        "popular"
+      ],
+      "calories": 95,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 4,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-00000000300e",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001101",
+      "slug": "berry-hibiscus-cooler",
+      "name": {
+        "ar": "كولر التوت والكركديه",
+        "en": "Berry Hibiscus Cooler"
+      },
+      "description": {
+        "ar": "كركديه مثلّج مع توت بري وفراولة وشرائح ليمون أخضر.",
+        "en": "Iced hibiscus with wild berries, strawberries and lime slices."
+      },
+      "price": 3.8,
+      "oldPrice": 4.4,
+      "imageUrl": "https://images.unsplash.com/photo-1497534446932-c925b458314e?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAUABADASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIEAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAADBP/aAAwDAQACEAMQAAAA7iSoFN24KH//xAAgEAADAAICAQUAAAAAAAAAAAABAgMAERIhBBMyQVFh/9oACAEBAAE/ADYGomNe0lvzJ2nViFbsfGVFOda+myLx1s5HU3NnIAdAF39nB46PWlHLEsOJG+tDFRUUKo6Gf//EABgRAAMBAQAAAAAAAAAAAAAAAAABEgIT/9oACAECAQE/AOmrkSR//8QAGxEAAQQDAAAAAAAAAAAAAAAAAQACERITQaH/2gAIAQMBAT8AwspaddRJgCV//9k=",
+      "options": [],
+      "tags": [
+        "new",
+        "vegan"
+      ],
+      "calories": 90,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 5,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-00000000300f",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001101",
+      "slug": "berry-frappe",
+      "name": {
+        "ar": "فرابيه التوت",
+        "en": "Berry Frappé"
+      },
+      "description": {
+        "ar": "مشروب مثلّج مخفوق من التوت الطازج والزبادي.",
+        "en": "A frozen blend of fresh berries and creamy yoghurt."
+      },
+      "price": 4.5,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1600718374662-0483d2b9da44?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAYABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEAMQAAAAbNXCayoI/8QAIBAAAQMEAgMAAAAAAAAAAAAAAQACAxESITEEYUFyof/aAAgBAQABPwCVrKtJI6qK5KtIx198qS6SOSxxFGFceUmAGQkm47UPJnscXDFCPaqD5AA0R42M7X//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AD//xAAVEQEBAAAAAAAAAAAAAAAAAAAQQf/aAAgBAwEBPwCH/9k=",
+      "options": [],
+      "tags": [
+        "vegetarian"
+      ],
+      "calories": 190,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 6,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000003010",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001102",
+      "slug": "karak-chai",
+      "name": {
+        "ar": "شاي كرك",
+        "en": "Karak Chai"
+      },
+      "description": {
+        "ar": "شاي أسود مغلي مع الحليب والهيل والزعفران.",
+        "en": "Strong black tea simmered with milk, cardamom and saffron."
+      },
+      "price": 2.5,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAWABADASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAIEBQb/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAADSCQBtUBP/xAAfEAABAwMFAAAAAAAAAAAAAAABAAIDBBEhEBITMbH/2gAIAQEAAT8Ae9kYBe4BYKqLbMxcg8VNM4vMYGlgOgv/xAAWEQEBAQAAAAAAAAAAAAAAAAARECH/2gAIAQIBAT8AdJ//xAAWEQADAAAAAAAAAAAAAAAAAAAQESH/2gAIAQMBAT8AUH//2Q==",
+      "options": [],
+      "tags": [
+        "popular"
+      ],
+      "calories": 120,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 0,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000003011",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001102",
+      "slug": "hibiscus-tea",
+      "name": {
+        "ar": "شاي الكركديه",
+        "en": "Hibiscus Tea"
+      },
+      "description": {
+        "ar": "كركديه دافئ بنكهة الورد والتوت البري، خالٍ من الكافيين.",
+        "en": "Warm hibiscus with rose petals and wild berries, caffeine-free."
+      },
+      "price": 2.8,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1597318181409-cf64d0b5d8a2?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAv/aAAwDAQACEAMQAAAA3lxX/8QAGxABAAIDAQEAAAAAAAAAAAAAAQIDABESIcH/2gAIAQEAAT8Ag2VU199ydAhjzEHT79yyImAEQDzP/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQBB/9oACAECAQE/AAy//8QAFhEBAQEAAAAAAAAAAAAAAAAAIQAB/9oACAEDAQE/ANW//9k=",
+      "options": [],
+      "tags": [
+        "vegan"
+      ],
+      "calories": 5,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 1,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000003012",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001102",
+      "slug": "spiced-black-tea",
+      "name": {
+        "ar": "شاي بالتوابل",
+        "en": "Spiced Black Tea"
+      },
+      "description": {
+        "ar": "شاي أسود مع القرفة والقرنفل والهيل، دافئ ومعطّر.",
+        "en": "Black tea with cinnamon, clove and cardamom, warm and aromatic."
+      },
+      "price": 2.6,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1571934811356-5cc061b6821f?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAwQF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAv/aAAwDAQACEAMQAAAAfPtMr//EAB4QAAICAgIDAAAAAAAAAAAAAAECAAMSQQQRMUJR/9oACAEBAAE/AOSbMGWoZEalCWuAzgo3fj6JyCcctgGL7Hc//8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAgBAgEBPwB//8QAFREBAQAAAAAAAAAAAAAAAAAAAEH/2gAIAQMBAT8Aj//Z",
+      "options": [],
+      "tags": [
+        "vegan"
+      ],
+      "calories": 5,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 2,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000003013",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001102",
+      "slug": "mint-green-tea",
+      "name": {
+        "ar": "شاي أخضر بالنعناع",
+        "en": "Mint Green Tea"
+      },
+      "description": {
+        "ar": "شاي أخضر منعش مع أوراق نعناع طازجة.",
+        "en": "Refreshing green tea with fresh mint leaves."
+      },
+      "price": 2.5,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1627435601361-ec25f5b1d0e5?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAAD/8QAFQEBAQAAAAAAAAAAAAAAAAAAAwT/2gAMAwEAAhADEAAAAHbJoz//xAAcEAEBAAICAwAAAAAAAAAAAAACAQADIlEEETL/2gAIAQEAAT8A8h7NGuICK9YaNs4Xr3jAX0ZcIJnEyZ//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAgEBPwCP/8QAFhEAAwAAAAAAAAAAAAAAAAAAABEh/9oACAEDAQE/AIj/2Q==",
+      "options": [],
+      "tags": [
+        "vegan"
+      ],
+      "calories": 0,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 3,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000003014",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001102",
+      "slug": "peach-rose-tea",
+      "name": {
+        "ar": "شاي الخوخ والورد",
+        "en": "Peach & Rose Tea"
+      },
+      "description": {
+        "ar": "مزيج خفيف من الخوخ وبتلات الورد، يُقدَّم ساخناً أو بارداً.",
+        "en": "A light blend of peach and rose petals, served hot or iced."
+      },
+      "price": 2.9,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1597481499750-3e6b22637e12?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABQIE/8QAFQEBAQAAAAAAAAAAAAAAAAAAAgP/2gAMAwEAAhADEAAAAGYQyGv/xAAdEAACAwACAwAAAAAAAAAAAAABAgADERIhMTNy/9oACAEBAAE/AGuUOFCtrSuxrGzVI471CiN5URPYfqf/xAAVEQEBAAAAAAAAAAAAAAAAAAAAIf/aAAgBAgEBPwCv/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAEREv/aAAgBAwEBPwDVR//Z",
+      "options": [],
+      "tags": [
+        "vegan"
+      ],
+      "calories": null,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 4,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000003015",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001102",
+      "slug": "moroccan-mint",
+      "name": {
+        "ar": "شاي مغربي بالنعناع",
+        "en": "Moroccan Mint Tea"
+      },
+      "description": {
+        "ar": "شاي أخضر مع نعناع طازج يُقدَّم في إبريق زجاجي يكفي شخصين.",
+        "en": "Gunpowder green tea with fresh mint, served in a glass pot for two."
+      },
+      "price": 4.5,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1547825407-2d060104b7f8?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABAL/xAAUAQEAAAAAAAAAAAAAAAAAAAAC/9oADAMBAAIQAxAAAACWuEH/AP/EAB4QAAICAgIDAAAAAAAAAAAAAAECAAMRIgUSFDJS/9oACAEBAAE/AKeP8M7sGczsLMK1lbp8gbS4BvYAwIqOSgwcT//EABcRAQADAAAAAAAAAAAAAAAAAAEAETH/2gAIAQIBAT8AbHZ//8QAFxEBAAMAAAAAAAAAAAAAAAAAAQACEf/aAAgBAwEBPwCuJP/Z",
+      "options": [],
+      "tags": [
+        "chef_pick",
+        "vegan"
+      ],
+      "calories": null,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 5,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000003016",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001102",
+      "slug": "herbal-teapot",
+      "name": {
+        "ar": "إبريق الأعشاب",
+        "en": "Herbal Teapot"
+      },
+      "description": {
+        "ar": "بابونج ويانسون وزهورات في إبريق للمشاركة بعد الوجبة.",
+        "en": "Chamomile, anise and flower blossoms in a teapot to share after a meal."
+      },
+      "price": 5,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAwQFBv/EABQBAQAAAAAAAAAAAAAAAAAAAAL/2gAMAwEAAhADEAAAAAUc4+X/AP/EABwQAAICAwEBAAAAAAAAAAAAAAECAxEABCESIv/aAAgBAQABPwDZZhKQ69VM19f3BbGmK3iSPJKrO1kmjkTOFf7bl105/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAR/9oACAECAQE/AFxv/8QAFxEBAAMAAAAAAAAAAAAAAAAAAQACEf/aAAgBAwEBPwANrP/Z",
+      "options": [],
+      "tags": [
+        "vegan"
+      ],
+      "calories": 0,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 6,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000003017",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001103",
+      "slug": "avocado-egg-toast",
+      "name": {
+        "ar": "توست الأفوكادو والبيض",
+        "en": "Avocado Egg Toast"
+      },
+      "description": {
+        "ar": "شرائح أفوكادو وبيض مسلوق على خبز محمّص مع بذور السمسم.",
+        "en": "Smashed avocado and soft eggs on toasted sourdough with sesame seeds."
+      },
+      "price": 6,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAXABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAAF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAMNR2Q5aao//xAAhEAABAwMEAwAAAAAAAAAAAAACAAEDBBETEiEiMRQycf/aAAgBAQABPwAgKIGYhtJ2LoZmOMIy48t3+qjKLyRz9MqySnOZ3j7WO7hv7PZSQYCMderhe6//xAAXEQADAQAAAAAAAAAAAAAAAAAAARFB/9oACAECAQE/AFU4af/EABgRAAIDAAAAAAAAAAAAAAAAAAABAhEy/9oACAEDAQE/AGRzZ//Z",
+      "options": [],
+      "tags": [
+        "new",
+        "vegetarian"
+      ],
+      "calories": 380,
+      "isAvailable": true,
+      "isFeatured": true,
+      "sortOrder": 0,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000003018",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001103",
+      "slug": "sunny-toast",
+      "name": {
+        "ar": "توست البيض المقلي",
+        "en": "Sunny Side Toast"
+      },
+      "description": {
+        "ar": "بيضة عيون على خبز مقرمش مع زبدة الأعشاب.",
+        "en": "A sunny-side egg on crisp bread with herb butter."
+      },
+      "price": 4.5,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAQABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAQIEBf/EABQBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAANEwOP8A/8QAIBAAAgEEAQUAAAAAAAAAAAAAAQMCABESEwQhMTIzQf/aAAgBAQABPwCRlMAtbgD8oMKSLHKBp+5ZsRtVL19L1BWmz+Wzt4wFf//EABYRAAMAAAAAAAAAAAAAAAAAAAARIv/aAAgBAgEBPwCmf//EABYRAAMAAAAAAAAAAAAAAAAAAAARIv/aAAgBAwEBPwCUf//Z",
+      "options": [],
+      "tags": [
+        "vegetarian"
+      ],
+      "calories": 290,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 1,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000003019",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001103",
+      "slug": "blueberry-pancakes",
+      "name": {
+        "ar": "بان كيك التوت والموز",
+        "en": "Blueberry Banana Pancakes"
+      },
+      "description": {
+        "ar": "بان كيك رقيق بالتوت الأزرق والموز وشراب القيقب.",
+        "en": "Fluffy pancakes with blueberries, banana and maple syrup."
+      },
+      "price": 5.5,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABAEC/8QAFQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAADaFS//EAB4QAAIBBQADAAAAAAAAAAAAAAIDAQAEERIiIUFh/9oACAEBAAE/AE2ShGCc04n1in2ga7Ief2JpzDi8YvPEFmIoHtO6AJLki6iPGa//xAAZEQABBQAAAAAAAAAAAAAAAAASAAERQVH/2gAIAQIBAT8AFzqMX//EABkRAAIDAQAAAAAAAAAAAAAAABIxAAECUf/aAAgBAwEBPwAsArXZ/9k=",
+      "options": [],
+      "tags": [
+        "popular",
+        "vegetarian"
+      ],
+      "calories": 520,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 2,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-00000000301a",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001103",
+      "slug": "french-toast",
+      "name": {
+        "ar": "فرنش توست",
+        "en": "French Toast"
+      },
+      "description": {
+        "ar": "خبز بريوش مقلي بالزبدة مع موز وتوت وسكر ناعم.",
+        "en": "Butter-fried brioche with banana, berries and powdered sugar."
+      },
+      "price": 6,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1484723091739-30a097e8f929?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAVABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDBP/EABUBAQEAAAAAAAAAAAAAAAAAAAID/9oADAMBAAIQAxAAAADCmmM6LIGP/8QAIBAAAgICAQUBAAAAAAAAAAAAAQIDEQAEcRQiMUJSov/aAAgBAQABPwDX1Z54xM8pClvANZsRNDbAyIB99wOa+9E7xh40RPzm88LqlTFmLNedNC3rXGCBLANnnP/EABcRAAMBAAAAAAAAAAAAAAAAABASImH/2gAIAQIBAT8AtsH/xAAWEQADAAAAAAAAAAAAAAAAAAAQEiL/2gAIAQMBAT8AhR//2Q==",
+      "options": [],
+      "tags": [
+        "popular",
+        "vegetarian"
+      ],
+      "calories": 560,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 3,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-00000000301b",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001103",
+      "slug": "honey-crepes",
+      "name": {
+        "ar": "كريب العسل والبرتقال",
+        "en": "Honey Orange Crêpes"
+      },
+      "description": {
+        "ar": "كريب رقيق بصلصة البرتقال والزبدة وعسل الزهور.",
+        "en": "Thin crêpes folded in orange-butter sauce with blossom honey."
+      },
+      "price": 5,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1519676867240-f03562e64548?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAYABADASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAwX/xAAUAQEAAAAAAAAAAAAAAAAAAAAD/9oADAMBAAIQAxAAAADXguFF2AY//8QAIBAAAgEEAQUAAAAAAAAAAAAAAQIRAAMSITETYXGBkv/aAAgBAQABPwAXGxQtokg1aQ4BSxkid1miFxyEgezVu4QAG+qs2dsSujz5rp4o0SzSSJ71/8QAGBEAAwEBAAAAAAAAAAAAAAAAAAECIUL/2gAIAQIBAT8AfM3WilH/xAAZEQEAAgMAAAAAAAAAAAAAAAABAAIRIUH/2gAIAQMBAT8AOtTUyz//2Q==",
+      "options": [],
+      "tags": [
+        "vegetarian"
+      ],
+      "calories": 410,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 4,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-00000000301c",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001103",
+      "slug": "fruit-bowl",
+      "name": {
+        "ar": "طبق فواكه موسمية",
+        "en": "Seasonal Fruit Bowl"
+      },
+      "description": {
+        "ar": "فواكه طازجة مقطّعة مع جوز الهند ونعناع.",
+        "en": "Freshly cut seasonal fruit with coconut and mint."
+      },
+      "price": 5.5,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1519996529931-28324d5a630e?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAYABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIFAf/EABUBAQEAAAAAAAAAAAAAAAAAAAID/9oADAMBAAIQAxAAAAC+8XBS6oOf/8QAHBAAAgIDAQEAAAAAAAAAAAAAAQIAAwURMRJh/9oACAEBAAE/AGKINuwA+zvJkGtS5dqGqKzHPZ6fvmFVYaI2IK1XgE//xAAYEQACAwAAAAAAAAAAAAAAAAAREgEQIf/aAAgBAgEBPwBpYDK//8QAGBEAAgMAAAAAAAAAAAAAAAAAAhIQESH/2gAIAQMBAT8AQUttj//Z",
+      "options": [],
+      "tags": [
+        "vegan",
+        "gluten_free"
+      ],
+      "calories": 180,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 5,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-00000000301d",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001103",
+      "slug": "big-brunch",
+      "name": {
+        "ar": "طبق البرانش الكبير",
+        "en": "The Big Brunch"
+      },
+      "description": {
+        "ar": "بيض، جبنة، زيتون، خضار، وعسل، مع خبز طازج لمشاركة الطاولة.",
+        "en": "Eggs, cheeses, olives, vegetables, honey and warm bread for the table."
+      },
+      "price": 7,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1493770348161-369560ae357d?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABQT/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAv/aAAwDAQACEAMQAAAASrJZh//EAB0QAAEEAgMAAAAAAAAAAAAAAAEAAgMRBDETIoL/2gAIAQEAAT8AfMCQIpCVhi477etrBjbUorTlA5zuSzp5X//EABYRAQEBAAAAAAAAAAAAAAAAABEAAv/aAAgBAgEBPwDK3//EABYRAAMAAAAAAAAAAAAAAAAAAAARIf/aAAgBAwEBPwBw/9k=",
+      "options": [],
+      "tags": [
+        "chef_pick",
+        "vegetarian"
+      ],
+      "calories": 780,
+      "isAvailable": true,
+      "isFeatured": true,
+      "sortOrder": 6,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-00000000301e",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001103",
+      "slug": "full-toast",
+      "name": {
+        "ar": "إفطار التوست الكامل",
+        "en": "Full Toast Plate"
+      },
+      "description": {
+        "ar": "بيض مع طماطم مشوية وخبز مقرمش وسلطة صغيرة.",
+        "en": "Eggs with grilled tomato, crisp toast and a small side salad."
+      },
+      "price": 6.5,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAEEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAABmVRL/AP/EACEQAAEEAQMFAAAAAAAAAAAAAAIAAQMRBBITMSEiMkFS/9oACAEBAAE/AIoMbXENjTiz9faz8QBh1Bz8oTLcKO+zmluSO0ouZOw+Nuv/xAAXEQEAAwAAAAAAAAAAAAAAAAARAAIS/9oACAECAQE/AMtln//EABcRAAMBAAAAAAAAAAAAAAAAAAABESH/2gAIAQMBAT8Aqiw//9k=",
+      "options": [],
+      "tags": [
+        "vegetarian"
+      ],
+      "calories": 480,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 7,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-00000000301f",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001104",
+      "slug": "butter-croissant",
+      "name": {
+        "ar": "كرواسان بالزبدة",
+        "en": "Butter Croissant"
+      },
+      "description": {
+        "ar": "رقائق ذهبية مقرمشة بزبدة فرنسية، يُخبز كل صباح.",
+        "en": "Golden, flaky layers made with French butter, baked every morning."
+      },
+      "price": 2.2,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAANABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAgMF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAAw6Bj/8QAHxABAQACAgEFAAAAAAAAAAAAAgEAAwQREhMhMVFS/9oACAEBAAE/ANBdXUNty6lC3sLhl/OauT6ERA918ryxc3ej0nafrP/EABgRAAIDAAAAAAAAAAAAAAAAAAABERJB/9oACAECAQE/AHbIP//EABcRAAMBAAAAAAAAAAAAAAAAAAABEkH/2gAIAQMBAT8AU6f/2Q==",
+      "options": [],
+      "tags": [
+        "popular"
+      ],
+      "calories": 270,
+      "isAvailable": true,
+      "isFeatured": true,
+      "sortOrder": 0,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000003020",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001104",
+      "slug": "almond-croissant",
+      "name": {
+        "ar": "كرواسان اللوز",
+        "en": "Almond Croissant"
+      },
+      "description": {
+        "ar": "كرواسان محشو بكريمة اللوز ومغطّى بشرائح اللوز المحمّصة.",
+        "en": "Croissant filled with almond cream and topped with toasted flakes."
+      },
+      "price": 3,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1530610476181-d83430b64dcd?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAVABADASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAUBAgME/8QAFAEBAAAAAAAAAAAAAAAAAAAAAv/aAAwDAQACEAMQAAAAssb4hxyAV//EACIQAAIABgICAwAAAAAAAAAAAAECAAMEERIiEyEFJFFhcf/aAAgBAQABPwDzi3nyPjE3MUuYWZxorC9siO4rvcxIuLA9xTJIo9sc5jL0YdRq4JG1iP2Jx4yyINfuP//EABkRAAIDAQAAAAAAAAAAAAAAAAABAhESUf/aAAgBAgEBPwDceiSs/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECERIxUf/aAAgBAwEBPwDCXBydbP/Z",
+      "options": [],
+      "tags": [
+        "vegetarian"
+      ],
+      "calories": 390,
+      "isAvailable": false,
+      "isFeatured": false,
+      "sortOrder": 1,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000003021",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001104",
+      "slug": "sourdough",
+      "name": {
+        "ar": "خبز العجين المخمّر",
+        "en": "Sourdough Loaf"
+      },
+      "description": {
+        "ar": "رغيف مخمّر طبيعياً لمدة ٢٤ ساعة بقشرة مقرمشة.",
+        "en": "A naturally leavened loaf, fermented 24 hours with a crackling crust."
+      },
+      "price": 3.5,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABAX/xAAUAQEAAAAAAAAAAAAAAAAAAAAD/9oADAMBAAIQAxAAAAC0UJRf/8QAGxAAAgIDAQAAAAAAAAAAAAAAAQIAAwQFIRP/2gAIAQEAAT8Asy60ibXHZirgrLUVukTxqVuIJ//EABYRAQEBAAAAAAAAAAAAAAAAAAEAA//aAAgBAgEBPwA0b//EABYRAQEBAAAAAAAAAAAAAAAAAAEAA//aAAgBAwEBPwByL//Z",
+      "options": [],
+      "tags": [
+        "vegan"
+      ],
+      "calories": null,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 2,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000003022",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001104",
+      "slug": "chocolate-drip-cake",
+      "name": {
+        "ar": "كيكة الشوكولاتة",
+        "en": "Chocolate Drip Cake"
+      },
+      "description": {
+        "ar": "طبقات من كيك الشوكولاتة الداكنة وغاناش لامع.",
+        "en": "Layers of dark chocolate sponge with glossy ganache."
+      },
+      "price": 4.5,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAMABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAwIE/8QAFAEBAAAAAAAAAAAAAAAAAAAAA//aAAwDAQACEAMQAAAA2C0Gv//EAB8QAAEFAAEFAAAAAAAAAAAAAAIAAQMEESESEzFRYv/aAAgBAQABPwC3basAF7LFXv8AdMR8784rEEco9JNwz6oK8UfIsv/EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAECAQE/AI//xAAWEQEBAQAAAAAAAAAAAAAAAAABACH/2gAIAQMBAT8AHL//2Q==",
+      "options": [],
+      "tags": [
+        "popular",
+        "vegetarian"
+      ],
+      "calories": 480,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 3,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000003023",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001104",
+      "slug": "raspberry-cake",
+      "name": {
+        "ar": "كيكة التوت البري",
+        "en": "Raspberry Cream Cake"
+      },
+      "description": {
+        "ar": "إسفنج الفانيليا مع كريمة خفيفة وتوت بري طازج.",
+        "en": "Vanilla sponge with light cream and fresh raspberries."
+      },
+      "price": 4.8,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAUABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMFAv/EABUBAQEAAAAAAAAAAAAAAAAAAAAC/9oADAMBAAIQAxAAAACeqlialIA//8QAHRAAAgIDAQEBAAAAAAAAAAAAAQIAAxEhMQQSE//aAAgBAQABPwAeAWV/f6DQGwI1NFQUnKuDKL2qQYVNdUanu9SulTp0NteCG1ixU4IMNaZ5P//EABgRAAIDAAAAAAAAAAAAAAAAAAARAQIy/9oACAECAQE/AJbKZP/EABkRAAEFAAAAAAAAAAAAAAAAAAACESJBcf/aAAgBAwEBPwCLCqw//9k=",
+      "options": [],
+      "tags": [
+        "new",
+        "vegetarian"
+      ],
+      "calories": 410,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 4,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000003024",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001104",
+      "slug": "tiramisu",
+      "name": {
+        "ar": "تيراميسو",
+        "en": "Tiramisu"
+      },
+      "description": {
+        "ar": "حلوى إيطالية بالقهوة والماسكربوني وبسكويت الصوابع.",
+        "en": "Italian classic of espresso-soaked sponge and mascarpone cream."
+      },
+      "price": 4.2,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAVABADASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIDBP/EABUBAQEAAAAAAAAAAAAAAAAAAAID/9oADAMBAAIQAxAAAACI6s43gBf/xAAfEAACAgEEAwAAAAAAAAAAAAABAgADERITITFBQlH/2gAIAQEAAT8ACoqLtpqBBi0XNlzUy8ckSxggAStmOPEwVKF8qzesdyCpPJHR6MCixtR7+z//xAAYEQEBAAMAAAAAAAAAAAAAAAABABESUf/aAAgBAgEBPwAXls4v/8QAFxEBAQEBAAAAAAAAAAAAAAAAEQEAAv/aAAgBAwEBPwDqNXEd/9k=",
+      "options": [],
+      "tags": [
+        "chef_pick",
+        "vegetarian"
+      ],
+      "calories": 430,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 5,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000003025",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001104",
+      "slug": "cookie-sandwich",
+      "name": {
+        "ar": "ساندويتش الكوكيز",
+        "en": "Cookie Sandwich"
+      },
+      "description": {
+        "ar": "كوكيز شوكولاتة طري محشو بكريمة الفانيليا.",
+        "en": "Soft chocolate-chip cookies sandwiching vanilla cream."
+      },
+      "price": 3,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1559622214-f8a9850965bb?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAUABADASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEFAgb/xAAVAQEBAAAAAAAAAAAAAAAAAAACAf/aAAwDAQACEAMQAAAA6ZYnBU2Cn//EAB4QAAICAgIDAAAAAAAAAAAAAAIDAAERMRIhQVGB/9oACAEBAAE/AJmr1cb0BXENEGGRLrWxLlBWNcvOfcpKh0sa+T//xAAXEQADAQAAAAAAAAAAAAAAAAABAhEQ/9oACAECAQE/AC8Mz//EABcRAQADAAAAAAAAAAAAAAAAAAECEBH/2gAIAQMBAT8AI6LX/9k=",
+      "options": [],
+      "tags": [
+        "vegetarian"
+      ],
+      "calories": 340,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 6,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000003026",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001104",
+      "slug": "macarons",
+      "name": {
+        "ar": "ماكرون (٦ قطع)",
+        "en": "Macarons (6 pcs)"
+      },
+      "description": {
+        "ar": "مجموعة من ٦ قطع بنكهات الفستق والورد والتوت.",
+        "en": "A box of six in pistachio, rose and raspberry flavours."
+      },
+      "price": 6.5,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1470124182917-cc6e71b22ecc?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABQIE/8QAFAEBAAAAAAAAAAAAAAAAAAAAAv/aAAwDAQACEAMQAAAA3USwH//EAB8QAAICAQQDAAAAAAAAAAAAAAECABEDBBIhURMxgf/aAAgBAQABPwDCpS7ZQWJPEbGpIG5kb3u7mjyO3lYtytUYXYhST2Phn//EABYRAQEBAAAAAAAAAAAAAAAAABEAAv/aAAgBAgEBPwDS3//EABgRAAIDAAAAAAAAAAAAAAAAAAIRAAES/9oACAEDAQE/ABoctT//2Q==",
+      "options": [],
+      "tags": [
+        "gluten_free",
+        "vegetarian"
+      ],
+      "calories": null,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 7,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000003027",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001104",
+      "slug": "glazed-donut",
+      "name": {
+        "ar": "دونات محشي",
+        "en": "Filled Donut"
+      },
+      "description": {
+        "ar": "دونات طري مغطّى بالسكر ومحشو بكريمة الفانيليا.",
+        "en": "A pillowy sugared donut filled with vanilla cream."
+      },
+      "price": 2.5,
+      "oldPrice": 3,
+      "imageUrl": "https://images.unsplash.com/photo-1612240498936-65f5101365d2?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAYABADASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMBBQb/xAAVAQEBAAAAAAAAAAAAAAAAAAACAf/aAAwDAQACEAMQAAAAzbSC3WIRf//EACAQAAICAQMFAAAAAAAAAAAAAAECAxEABBJBEyEiMUL/2gAIAQEAAT8AjTcwyeFojtarrg3kC33DUwydjJtNG/q8079NwwaskbSSW/kXPvjP/8QAFhEAAwAAAAAAAAAAAAAAAAAAEBEh/9oACAECAQE/AHR//8QAFxEBAAMAAAAAAAAAAAAAAAAAAAERIf/aAAgBAwEBPwCsQ//Z",
+      "options": [],
+      "tags": [
+        "vegetarian"
+      ],
+      "calories": 300,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 8,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000003028",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001105",
+      "slug": "fresh-orange",
+      "name": {
+        "ar": "عصير برتقال طازج",
+        "en": "Fresh Orange Juice"
+      },
+      "description": {
+        "ar": "برتقال طازج معصور عند الطلب بدون سكر مضاف.",
+        "en": "Pressed to order from fresh oranges, no added sugar."
+      },
+      "price": 3,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAYABADASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIEAwX/xAAWAQEBAQAAAAAAAAAAAAAAAAADAQL/2gAMAwEAAhADEAAAAOQl+YpWwTX/xAAhEAACAgIBBAMAAAAAAAAAAAABAwIRAAQSBRMhUXGBkf/aAAgBAQABPwBGq6aptAHEfprHq4EVE+z9nOmsZzksyuBF1m+CdtgGa8ILZKfaMPgeMdoFzWOsETqqOf/EABwRAQABBAMAAAAAAAAAAAAAAAERAAIDEhNBUf/aAAgBAgEBPwAyPLdjfJKA3bu4iv/EABgRAQEBAQEAAAAAAAAAAAAAAAECACJB/9oACAEDAQE/AGAgrLyT5v/Z",
+      "options": [
+        {
+          "id": "opt-41-1",
+          "name": {
+            "ar": "وسط",
+            "en": "Medium"
+          },
+          "price": 3
+        },
+        {
+          "id": "opt-41-2",
+          "name": {
+            "ar": "كبير",
+            "en": "Large"
+          },
+          "price": 4.2
+        }
+      ],
+      "tags": [
+        "vegan",
+        "popular"
+      ],
+      "calories": 110,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 0,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000003029",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001105",
+      "slug": "green-detox",
+      "name": {
+        "ar": "عصير الديتوكس الأخضر",
+        "en": "Green Detox"
+      },
+      "description": {
+        "ar": "تفاح أخضر وخيار وسبانخ وزنجبيل لانتعاش فوري.",
+        "en": "Green apple, cucumber, spinach and ginger for an instant lift."
+      },
+      "price": 4,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1610970881699-44a5587cabec?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAYABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAEDBP/EABUBAQEAAAAAAAAAAAAAAAAAAAID/9oADAMBAAIQAxAAAACkXkIUQmv/xAAhEAEAAgIBAwUAAAAAAAAAAAABAgMAEhEEITIiMUFhcf/aAAgBAQABPwBSIrjOM/ZzqJ6RlDtt8mdNZzW7J5cGTslcW71eSv5jSlDCJ61i8v1n/8QAGREAAgMBAAAAAAAAAAAAAAAAABEBAjES/9oACAECAQE/AO3ZRhh//8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAIAQMBAT8AR//Z",
+      "options": [],
+      "tags": [
+        "vegan",
+        "gluten_free"
+      ],
+      "calories": 90,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 1,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-00000000302a",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001105",
+      "slug": "mango-pineapple",
+      "name": {
+        "ar": "مانغو وأناناس",
+        "en": "Mango Pineapple"
+      },
+      "description": {
+        "ar": "مزيج استوائي كثيف من المانغو والأناناس الطازج.",
+        "en": "A thick tropical blend of ripe mango and fresh pineapple."
+      },
+      "price": 4,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1534353473418-4cfa6c56fd38?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAYABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EABYBAQEBAAAAAAAAAAAAAAAAAAMCBP/aAAwDAQACEAMQAAAAqydqXPSkg5f/xAAfEAACAQUAAwEAAAAAAAAAAAABAwIABBETIRIUMVH/2gAIAQEAAT8A9e1uEma4/eSApqNOyBBAnHIGfhFQtWIJkDzWc1dKLUbJM6AeUq68ABkkYNPbGUuflf/EABoRAAIDAQEAAAAAAAAAAAAAABESAAECEyH/2gAIAQIBAT8A6EZvNtFpmHon/8QAGBEAAwEBAAAAAAAAAAAAAAAAAAERAhL/2gAIAQMBAT8A5co9OQ//2Q==",
+      "options": [
+        {
+          "id": "opt-43-1",
+          "name": {
+            "ar": "وسط",
+            "en": "Medium"
+          },
+          "price": 4
+        },
+        {
+          "id": "opt-43-2",
+          "name": {
+            "ar": "كبير",
+            "en": "Large"
+          },
+          "price": 5
+        }
+      ],
+      "tags": [
+        "vegan"
+      ],
+      "calories": 170,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 2,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-00000000302b",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001105",
+      "slug": "berry-blast",
+      "name": {
+        "ar": "سموذي التوت",
+        "en": "Berry Blast"
+      },
+      "description": {
+        "ar": "توت أزرق وفراولة وتوت بري مع الزبادي.",
+        "en": "Blueberries, strawberries and raspberries blended with yoghurt."
+      },
+      "price": 4.2,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1553530666-ba11a7da3888?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAYABADASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABAAFBv/EABUBAQEAAAAAAAAAAAAAAAAAAAIB/9oADAMBAAIQAxAAAADoiYYo2NpH/8QAIBAAAgIBAwUAAAAAAAAAAAAAAQIAAxIEBSETIjFBgv/aAAgBAQABPwBKlKgxzQ7PWrguOCJfqri7EWMAPAHER26quD3h5VprricUOJ9mJtYBzst+RP/EABURAQEAAAAAAAAAAAAAAAAAAAAB/9oACAECAQE/AEf/xAAYEQADAQEAAAAAAAAAAAAAAAAAARECEv/aAAgBAwEBPwDhyj02pT//2Q==",
+      "options": [],
+      "tags": [
+        "vegetarian",
+        "new"
+      ],
+      "calories": 210,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 3,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-00000000302c",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001105",
+      "slug": "strawberry-banana",
+      "name": {
+        "ar": "فراولة وموز",
+        "en": "Strawberry Banana"
+      },
+      "description": {
+        "ar": "سموذي كريمي بالفراولة والموز والحليب.",
+        "en": "A creamy smoothie of strawberries, banana and milk."
+      },
+      "price": 4,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1589733955941-5eeaf752f6dd?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAALABADASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABAX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAAAGijUh//EAB4QAAIBBAMBAAAAAAAAAAAAAAIDAAEEERIiIzFx/9oACAEBAAE/ABtSWJG7gGfsCwL2pS/QrddNYKE4p1jP/8QAFhEBAQEAAAAAAAAAAAAAAAAAEQBB/9oACAECAQE/AB2//8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAC/9oACAEDAQE/AEDJf//Z",
+      "options": [],
+      "tags": [
+        "vegetarian"
+      ],
+      "calories": 220,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 4,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-00000000302d",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001105",
+      "slug": "tropical-smoothie",
+      "name": {
+        "ar": "سموذي استوائي",
+        "en": "Tropical Smoothie"
+      },
+      "description": {
+        "ar": "موز وأناناس وجوز هند، صيف كامل في كأس.",
+        "en": "Banana, pineapple and coconut, a summer in a glass."
+      },
+      "price": 4.5,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1505252585461-04db1eb84625?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAXABADASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAQBAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAACA//aAAwDAQACEAMQAAAAYTchDYtA0//EAB8QAAIDAAICAwAAAAAAAAAAAAECAAMREjEEEyJRgf/aAAgBAQABPwB34k/P8yMtlgcKrMYiJdRSyBsZs3sy2mwJZ6UJetxx+4PCoVVVVKqOgDEoRDo3Z//EABgRAAIDAAAAAAAAAAAAAAAAAAACERNB/9oACAECAQE/ALlwg//EABoRAAICAwAAAAAAAAAAAAAAAAACARETMVH/2gAIAQMBAT8AwNti56f/2Q==",
+      "options": [],
+      "tags": [
+        "vegan"
+      ],
+      "calories": 240,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 5,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-00000000302e",
+      "restaurantId": "10000000-0000-4000-8000-000000000001",
+      "categoryId": "10000000-0000-4000-8000-000000001105",
+      "slug": "juice-flight",
+      "name": {
+        "ar": "رحلة العصائر",
+        "en": "Juice Flight"
+      },
+      "description": {
+        "ar": "ثلاثة أكواب صغيرة من عصائرنا الأكثر طلباً للتجربة.",
+        "en": "Three small glasses of our most-loved juices, perfect for tasting."
+      },
+      "price": 6.5,
+      "oldPrice": null,
+      "imageUrl": "https://images.unsplash.com/photo-1622597467836-f3285f2131b8?auto=format&fit=crop&w=1200&q=80",
+      "imageBlur": "data:image/jpeg;base64,/9j/2wBDABcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////2wBDARcXFxcYFxocHBokJiImJDUwLCwwNVA5PTk9OVB5S1hLS1hLeWuBaWJpgWvAl4WFl8DeurC63v/w8P//////////wgARCAAJABADASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEBf/EABUBAQEAAAAAAAAAAAAAAAAAAAIE/9oADAMBAAIQAxAAAADOKXzr/8QAHxAAAgEEAgMAAAAAAAAAAAAAAQIDABESITJxBBNz/9oACAEBAAE/AGEPjPHJEWyB0e6mEjD1qb4HeV90eMna03Bvma//xAAXEQEAAwAAAAAAAAAAAAAAAAABAAIR/9oACAECAQE/AC7hP//EABgRAAMBAQAAAAAAAAAAAAAAAAERIQAC/9oACAEDAQE/AD1IE9//2Q==",
+      "options": [],
+      "tags": [
+        "chef_pick",
+        "vegan"
+      ],
+      "calories": null,
+      "isAvailable": true,
+      "isFeatured": false,
+      "sortOrder": 6,
+      "createdAt": "2026-11-10T00:00:00.000Z",
+      "updatedAt": "2026-11-10T00:00:00.000Z"
+    }
+  ]
+}

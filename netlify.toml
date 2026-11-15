@@ -1,0 +1,24 @@
+# Netlify deploy settings. Netlify detects Next.js and runs it with its Next.js runtime
+# (@netlify/plugin-nextjs), which handles server rendering, image optimization and caching.
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  # Next.js 16 needs Node 20.9+.
+  NODE_VERSION = "22"
+  NEXT_TELEMETRY_DISABLED = "1"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# Never cache the private areas at the CDN.
+[[headers]]
+  for = "/*/dashboard/*"
+  [headers.values]
+    Cache-Control = "private, no-store"
+
+[[headers]]
+  for = "/*/admin/*"
+  [headers.values]
+    Cache-Control = "private, no-store"

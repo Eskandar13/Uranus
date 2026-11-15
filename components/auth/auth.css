@@ -1,0 +1,21 @@
+/* Auth pages (login, password reset). Imported by app/[lang]/login/layout.tsx and app/[lang]/auth/layout.tsx. */
+
+@keyframes auth-float {
+  0%,
+  100% {
+    transform: translateY(0) rotate(-2deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(-1deg);
+  }
+}
+
+.auth-float {
+  animation: auth-float 7s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .auth-float {
+    animation: none;
+  }
+}
