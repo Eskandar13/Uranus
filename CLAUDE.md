@@ -1,5 +1,7 @@
 # Workspace notes
 
+This folder is the git repository **Eskandar13/Uranus** (branch `main`): one folder per project. `.claude/skills/` holds shared skills.
+
 The project here is a multi-restaurant QR menu platform in `menu-platform/`.
 
 - **Resuming work: read `menu-platform/docs/PROGRESS.md` first.** It records what's done, the next steps in order, and how to run the app.
